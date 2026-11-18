@@ -1,0 +1,6 @@
+{
+  "name": "SRM ERP – Supplier Relationship Management System",
+  "description": "Enterprise Phase-1 Supplier Relationship Management platform for automotive and precision manufacturing: supplier onboarding, multi-stage approvals, RFQ sourcing, sealed-bid quotation comparison, negotiation, rate approval, award management, audit trails, and SAP ERP integration.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

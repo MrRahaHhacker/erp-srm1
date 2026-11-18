@@ -1,0 +1,3429 @@
+{
+  "users": [
+    {
+      "id": "USR-SA-01",
+      "username": "superadmin",
+      "email": "superadmin@autocorp-srm.com",
+      "fullName": "Vikramaditya Deshmukh",
+      "role": "SUPER_ADMIN",
+      "designation": "Enterprise Chief Procurement Architect",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [
+        "DEPT-PC",
+        "DEPT-CH",
+        "DEPT-EV",
+        "DEPT-QA"
+      ],
+      "purchasingGroups": [
+        "PG-01",
+        "PG-02",
+        "PG-03"
+      ],
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-07T12:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 5,
+      "createdAt": "2026-10-18T12:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": [
+        {
+          "sessionId": "e6203828d32cb48b7d445f48",
+          "refreshToken": "2225dbf20da3ca15e6f861cdf9c664abaf7e843e1d1360cd",
+          "createdAt": "2026-11-17T12:54:10.820Z",
+          "lastActiveAt": "2026-11-17T12:54:10.918Z",
+          "expiresAt": "2026-11-17T13:54:10.820Z",
+          "userAgent": "curl/7.88.1",
+          "ip": "127.0.0.1"
+        }
+      ],
+      "lastLoginAt": "2026-11-17T12:54:10.820Z"
+    },
+    {
+      "id": "USR-ADM-01",
+      "username": "admin",
+      "email": "admin@autocorp-srm.com",
+      "fullName": "Ananya Sharma",
+      "role": "ADMIN",
+      "designation": "SRM Governance Administrator",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [
+        "DEPT-PC",
+        "DEPT-CH",
+        "DEPT-EV",
+        "DEPT-QA"
+      ],
+      "purchasingGroups": [
+        "PG-01",
+        "PG-02",
+        "PG-03"
+      ],
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-12T12:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 4,
+      "createdAt": "2026-10-19T08:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    },
+    {
+      "id": "USR-BUY-01",
+      "username": "buyer",
+      "email": "rajesh.kulkarni@autocorp-srm.com",
+      "fullName": "Rajesh Kulkarni",
+      "role": "BUYER",
+      "designation": "Lead Strategic Buyer – Powertrain & Chassis",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [
+        "DEPT-PC",
+        "DEPT-CH",
+        "DEPT-EV"
+      ],
+      "purchasingGroups": [
+        "PG-01",
+        "PG-02",
+        "PG-03"
+      ],
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-15T12:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-23T12:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    },
+    {
+      "id": "USR-APR-SCM",
+      "username": "scm.reviewer",
+      "email": "meera.iyer@autocorp-srm.com",
+      "fullName": "Meera Iyer",
+      "role": "APPROVER",
+      "approverType": "SCM_REVIEWER",
+      "designation": "SCM Onboarding Specialist",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [
+        "DEPT-PC",
+        "DEPT-CH",
+        "DEPT-EV"
+      ],
+      "purchasingGroups": [
+        "PG-01",
+        "PG-02",
+        "PG-03"
+      ],
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-13T18:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-23T12:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    },
+    {
+      "id": "USR-APR-FIN",
+      "username": "finance.reviewer",
+      "email": "arjun.mehta@autocorp-srm.com",
+      "fullName": "Arjun Mehta",
+      "role": "APPROVER",
+      "approverType": "FINANCE_REVIEWER",
+      "designation": "Senior Finance & Tax Controller",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [
+        "DEPT-PC",
+        "DEPT-CH",
+        "DEPT-EV"
+      ],
+      "purchasingGroups": [
+        "PG-01",
+        "PG-02",
+        "PG-03"
+      ],
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-13T18:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-23T12:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    },
+    {
+      "id": "USR-APR-QA",
+      "username": "quality.reviewer",
+      "email": "kavita.nair@autocorp-srm.com",
+      "fullName": "Kavita Nair",
+      "role": "APPROVER",
+      "approverType": "QUALITY_REVIEWER",
+      "designation": "Supplier Quality Assurance Lead (IATF 16949)",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [
+        "DEPT-QA",
+        "DEPT-PC",
+        "DEPT-CH"
+      ],
+      "purchasingGroups": [
+        "PG-01",
+        "PG-02"
+      ],
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-13T18:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-23T12:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    },
+    {
+      "id": "USR-APR-TECH",
+      "username": "tech.reviewer",
+      "email": "suresh.patel@autocorp-srm.com",
+      "fullName": "Suresh Patel",
+      "role": "APPROVER",
+      "approverType": "TECHNICAL_REVIEWER",
+      "designation": "Principal R&D / Engineering Evaluator",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [
+        "DEPT-PC",
+        "DEPT-CH",
+        "DEPT-EV"
+      ],
+      "purchasingGroups": [
+        "PG-01",
+        "PG-02",
+        "PG-03"
+      ],
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-13T18:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-23T12:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    },
+    {
+      "id": "USR-APR-COST",
+      "username": "costing.reviewer",
+      "email": "priya.venkat@autocorp-srm.com",
+      "fullName": "Priya Venkataraman",
+      "role": "APPROVER",
+      "approverType": "COSTING_REVIEWER",
+      "designation": "Should-Cost & Value Engineering Lead",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [
+        "DEPT-PC",
+        "DEPT-CH",
+        "DEPT-EV"
+      ],
+      "purchasingGroups": [
+        "PG-01",
+        "PG-02",
+        "PG-03"
+      ],
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-13T18:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-23T12:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    },
+    {
+      "id": "USR-APR-SCMM",
+      "username": "scm.manager",
+      "email": "rohan.kapoor@autocorp-srm.com",
+      "fullName": "Rohan Kapoor",
+      "role": "APPROVER",
+      "approverType": "SCM_MANAGER",
+      "designation": "SCM Manager – Direct Materials",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [
+        "DEPT-PC",
+        "DEPT-CH",
+        "DEPT-EV"
+      ],
+      "purchasingGroups": [
+        "PG-01",
+        "PG-02",
+        "PG-03"
+      ],
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-13T18:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-23T12:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    },
+    {
+      "id": "USR-APR-PH",
+      "username": "purchase.head",
+      "email": "deepak.sinha@autocorp-srm.com",
+      "fullName": "Deepak Sinha",
+      "role": "APPROVER",
+      "approverType": "PURCHASE_HEAD",
+      "designation": "VP & Head of Corporate Purchasing",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [
+        "DEPT-PC",
+        "DEPT-CH",
+        "DEPT-EV",
+        "DEPT-QA"
+      ],
+      "purchasingGroups": [
+        "PG-01",
+        "PG-02",
+        "PG-03"
+      ],
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-13T18:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-23T12:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    },
+    {
+      "id": "USR-APR-MGT",
+      "username": "management.approver",
+      "email": "siddharth.rao@autocorp-srm.com",
+      "fullName": "Siddharth Rao",
+      "role": "APPROVER",
+      "approverType": "MANAGEMENT_APPROVER",
+      "designation": "Chief Operating Officer (Executive Board)",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [
+        "DEPT-PC",
+        "DEPT-CH",
+        "DEPT-EV",
+        "DEPT-QA"
+      ],
+      "purchasingGroups": [
+        "PG-01",
+        "PG-02",
+        "PG-03"
+      ],
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-13T18:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-23T12:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    },
+    {
+      "id": "USR-SUP-01",
+      "username": "supplier.bharat",
+      "email": "quotes@bharatforgings.in",
+      "fullName": "Nikhil Joshi (Bharat Precision)",
+      "role": "SUPPLIER",
+      "designation": "Key Account Director – OEM",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [],
+      "purchasingGroups": [],
+      "supplierId": "SUP-001",
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-15T00:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-27T16:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": [
+        {
+          "sessionId": "6191b7c073f072f36dca70b3",
+          "refreshToken": "cf0b106075b1b1e49137dbddc10f2de4eb0f6a45b6bb117d",
+          "createdAt": "2026-11-17T12:54:15.558Z",
+          "lastActiveAt": "2026-11-17T12:54:15.558Z",
+          "expiresAt": "2026-11-17T13:54:15.558Z",
+          "userAgent": "curl/7.88.1",
+          "ip": "127.0.0.1"
+        }
+      ],
+      "lastLoginAt": "2026-11-17T12:54:15.558Z"
+    },
+    {
+      "id": "USR-SUP-02",
+      "username": "supplier.kaveri",
+      "email": "tenders@kavericnc.com",
+      "fullName": "Lakshmi Narayanan (Kaveri CNC)",
+      "role": "SUPPLIER",
+      "designation": "Head of Business Development",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [],
+      "purchasingGroups": [],
+      "supplierId": "SUP-002",
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-15T00:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-27T16:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    },
+    {
+      "id": "USR-SUP-03",
+      "username": "supplier.shakti",
+      "email": "rfq@shaktifasteners.co.in",
+      "fullName": "Harpreet Singh (Shakti Fasteners)",
+      "role": "SUPPLIER",
+      "designation": "OEM Sales Lead",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [],
+      "purchasingGroups": [],
+      "supplierId": "SUP-003",
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-15T00:54:00.791Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-27T16:54:00.791Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    },
+    {
+      "id": "USR-AUD-01",
+      "username": "auditor",
+      "email": "compliance.audit@autocorp-srm.com",
+      "fullName": "Ritu Chatterjee",
+      "role": "AUDITOR",
+      "designation": "Internal Governance & SOX Auditor",
+      "companyId": "COMP-01",
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "departmentIds": [
+        "DEPT-PC",
+        "DEPT-CH",
+        "DEPT-EV",
+        "DEPT-QA"
+      ],
+      "purchasingGroups": [
+        "PG-01",
+        "PG-02",
+        "PG-03"
+      ],
+      "mfaEnabled": false,
+      "status": "ACTIVE",
+      "passwordUpdatedAt": "2026-11-16T06:54:00.792Z",
+      "passwordExpiryDays": 90,
+      "concurrentSessionLimit": 3,
+      "createdAt": "2026-10-31T20:54:00.792Z",
+      "passwordHash": "dbd0f05141d5897d4709530d7cfb7c1f:599ec866cb33b908556cb48aac158d7491111416e8a54cbe7fccb03d8d351bb3b2a4f96f01660de31e13ef0ff58f5da9f9f4912764f04ef62d713b30a0cd11a8",
+      "failedLoginAttempts": 0,
+      "activeSessions": []
+    }
+  ],
+  "loginActivities": [
+    {
+      "id": "LOG-1794920055558",
+      "userId": "USR-SUP-01",
+      "username": "supplier.bharat",
+      "email": "quotes@bharatforgings.in",
+      "role": "SUPPLIER",
+      "status": "SUCCESS",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-11-17T12:54:15.558Z"
+    },
+    {
+      "id": "LOG-1794920050821",
+      "userId": "USR-SA-01",
+      "username": "superadmin",
+      "email": "superadmin@autocorp-srm.com",
+      "role": "SUPER_ADMIN",
+      "status": "SUCCESS",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-11-17T12:54:10.821Z"
+    },
+    {
+      "id": "LOG-1794920040820",
+      "username": "buyer.powertrain@autocorp-srm.com",
+      "status": "FAILED",
+      "reason": "User not found",
+      "ip": "127.0.0.1",
+      "userAgent": "curl/7.88.1",
+      "timestamp": "2026-11-17T12:54:00.820Z"
+    },
+    {
+      "id": "LOG-01",
+      "userId": "USR-BUY-01",
+      "username": "buyer",
+      "email": "rajesh.kulkarni@autocorp-srm.com",
+      "role": "BUYER",
+      "status": "SUCCESS",
+      "ip": "10.42.19.88",
+      "userAgent": "Chrome 131 / Windows 11",
+      "timestamp": "2026-11-17T10:54:00.794Z"
+    },
+    {
+      "id": "LOG-02",
+      "userId": "USR-APR-FIN",
+      "username": "finance.reviewer",
+      "email": "arjun.mehta@autocorp-srm.com",
+      "role": "APPROVER",
+      "status": "SUCCESS",
+      "ip": "10.42.12.40",
+      "userAgent": "Edge 131 / Windows 11",
+      "timestamp": "2026-11-17T01:54:00.794Z"
+    },
+    {
+      "id": "LOG-03",
+      "username": "unknown.vendor",
+      "status": "FAILED",
+      "reason": "Invalid credentials",
+      "ip": "192.168.14.92",
+      "userAgent": "Chrome 130 / macOS",
+      "timestamp": "2026-11-16T21:54:00.794Z"
+    }
+  ],
+  "securitySettings": {
+    "maxFailedAttempts": 5,
+    "lockDurationMinutes": 15,
+    "passwordExpiryDays": 90,
+    "sessionTimeoutMinutes": 60,
+    "maxConcurrentSessions": 3,
+    "captchaThreshold": 3,
+    "enforceMfaForAdmins": false,
+    "allowSupplierSelfRegistration": true
+  },
+  "companies": [
+    {
+      "id": "COMP-01",
+      "code": "AC01",
+      "name": "AutoCorp Precision Manufacturing Ltd.",
+      "gstNumber": "27AAACA8821M1Z2",
+      "panNumber": "AAACA8821M",
+      "country": "India",
+      "currency": "INR",
+      "status": "ACTIVE"
+    }
+  ],
+  "plants": [
+    {
+      "id": "PLT-1010",
+      "companyId": "COMP-01",
+      "code": "1010",
+      "name": "Pune Chakan Powertrain Plant",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "sapPlantCode": "1010",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "PLT-1020",
+      "companyId": "COMP-01",
+      "code": "1020",
+      "name": "Chennai Oragadam Chassis Plant",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "sapPlantCode": "1020",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "PLT-1030",
+      "companyId": "COMP-01",
+      "code": "1030",
+      "name": "Sanand EV Systems Plant",
+      "city": "Sanand",
+      "state": "Gujarat",
+      "sapPlantCode": "1030",
+      "status": "ACTIVE"
+    }
+  ],
+  "departments": [
+    {
+      "id": "DEPT-PC",
+      "companyId": "COMP-01",
+      "code": "PC",
+      "name": "Powertrain Sourcing",
+      "costCenter": "CC-1010-PT"
+    },
+    {
+      "id": "DEPT-CH",
+      "companyId": "COMP-01",
+      "code": "CH",
+      "name": "Chassis & Forgings",
+      "costCenter": "CC-1020-CH"
+    },
+    {
+      "id": "DEPT-EV",
+      "companyId": "COMP-01",
+      "code": "EV",
+      "name": "EV Electronics & Thermal",
+      "costCenter": "CC-1030-EV"
+    },
+    {
+      "id": "DEPT-QA",
+      "companyId": "COMP-01",
+      "code": "QA",
+      "name": "Supplier Quality Assurance",
+      "costCenter": "CC-1000-QA"
+    }
+  ],
+  "materialCategories": [
+    {
+      "id": "MC-01",
+      "code": "CNC-CAST",
+      "name": "CNC Machined Castings",
+      "description": "Precision aluminum & SG iron machined parts",
+      "active": true
+    },
+    {
+      "id": "MC-02",
+      "code": "PT-FORGE",
+      "name": "Powertrain Forgings",
+      "description": "Closed-die forged steel shafts & arms",
+      "active": true
+    },
+    {
+      "id": "MC-03",
+      "code": "EV-EXTR",
+      "name": "EV Extrusions",
+      "description": "Battery crash rails, cold plates & busbars",
+      "active": true
+    },
+    {
+      "id": "MC-04",
+      "code": "EL-SEAL",
+      "name": "Elastomer Seals & Gaskets",
+      "description": "High-temp EPDM/Viton braking & coolant seals",
+      "active": true
+    },
+    {
+      "id": "MC-05",
+      "code": "ST-LAM",
+      "name": "Stator Laminations",
+      "description": "Silicon steel motor core stacks",
+      "active": true
+    }
+  ],
+  "supplierCategories": [
+    {
+      "id": "SC-01",
+      "code": "TIER1-M",
+      "name": "Tier-1 Machining & Forgings",
+      "active": true
+    },
+    {
+      "id": "SC-02",
+      "code": "TIER1-DC",
+      "name": "Tier-1 Machining & Die Casting",
+      "active": true
+    },
+    {
+      "id": "SC-03",
+      "code": "TIER2-PT",
+      "name": "Tier-2 Precision Turned Parts",
+      "active": true
+    },
+    {
+      "id": "SC-04",
+      "code": "EV-THRM",
+      "name": "EV Thermal & Cooling",
+      "active": true
+    },
+    {
+      "id": "SC-05",
+      "code": "RUB-SEAL",
+      "name": "Rubber, Seals & Gaskets",
+      "active": true
+    }
+  ],
+  "taxes": [
+    {
+      "id": "TAX-18",
+      "code": "GST18",
+      "name": "IGST / CGST+SGST 18%",
+      "extra": "18",
+      "active": true
+    },
+    {
+      "id": "TAX-12",
+      "code": "GST12",
+      "name": "GST 12%",
+      "extra": "12",
+      "active": true
+    },
+    {
+      "id": "TAX-28",
+      "code": "GST28",
+      "name": "GST 28% (Auto Luxury/Special)",
+      "extra": "28",
+      "active": true
+    },
+    {
+      "id": "TAX-0",
+      "code": "EXEMPT",
+      "name": "Zero-Rated Export / SEZ 0%",
+      "extra": "0",
+      "active": true
+    }
+  ],
+  "currencies": [
+    {
+      "id": "CUR-INR",
+      "code": "INR",
+      "name": "Indian Rupee (₹)",
+      "extra": "1.00",
+      "active": true
+    },
+    {
+      "id": "CUR-USD",
+      "code": "USD",
+      "name": "US Dollar ($)",
+      "extra": "84.50",
+      "active": true
+    },
+    {
+      "id": "CUR-EUR",
+      "code": "EUR",
+      "name": "Euro (€)",
+      "extra": "91.20",
+      "active": true
+    }
+  ],
+  "uoms": [
+    {
+      "id": "UOM-NOS",
+      "code": "NOS",
+      "name": "Numbers (Units)",
+      "active": true
+    },
+    {
+      "id": "UOM-SET",
+      "code": "SET",
+      "name": "Complete Set / Assembly",
+      "active": true
+    },
+    {
+      "id": "UOM-KG",
+      "code": "KG",
+      "name": "Kilograms",
+      "active": true
+    },
+    {
+      "id": "UOM-MTR",
+      "code": "MTR",
+      "name": "Meters",
+      "active": true
+    }
+  ],
+  "incoterms": [
+    {
+      "id": "INC-DAP",
+      "code": "DAP",
+      "name": "Delivered at Place (Plant Gate)",
+      "active": true
+    },
+    {
+      "id": "INC-DDP",
+      "code": "DDP",
+      "name": "Delivered Duty Paid",
+      "active": true
+    },
+    {
+      "id": "INC-EXW",
+      "code": "EXW",
+      "name": "Ex Works (Supplier Factory)",
+      "active": true
+    },
+    {
+      "id": "INC-FOB",
+      "code": "FOB",
+      "name": "Free On Board",
+      "active": true
+    }
+  ],
+  "paymentTerms": [
+    {
+      "id": "PAY-30",
+      "code": "NET30",
+      "name": "Net 30 Days from GRN",
+      "active": true
+    },
+    {
+      "id": "PAY-45",
+      "code": "NET45",
+      "name": "Net 45 Days from GRN",
+      "active": true
+    },
+    {
+      "id": "PAY-60",
+      "code": "NET60",
+      "name": "Net 60 Days from GRN",
+      "active": true
+    },
+    {
+      "id": "PAY-MSME",
+      "code": "MSME45",
+      "name": "MSME Statutory 45 Days",
+      "active": true
+    }
+  ],
+  "numberRanges": [
+    {
+      "id": "NR-1",
+      "objectType": "SUPPLIER_APP",
+      "prefix": "APP-2026-",
+      "currentNumber": 7,
+      "padding": 4
+    },
+    {
+      "id": "NR-2",
+      "objectType": "SUPPLIER_REG",
+      "prefix": "SRM-VND-",
+      "currentNumber": 1005,
+      "padding": 4
+    },
+    {
+      "id": "NR-3",
+      "objectType": "RFQ",
+      "prefix": "RFQ-2026-",
+      "currentNumber": 107,
+      "padding": 4
+    },
+    {
+      "id": "NR-4",
+      "objectType": "QUOTATION",
+      "prefix": "QUO-2026-",
+      "currentNumber": 5050,
+      "padding": 4
+    },
+    {
+      "id": "NR-5",
+      "objectType": "AWARD",
+      "prefix": "AWD-2026-",
+      "currentNumber": 42,
+      "padding": 4
+    }
+  ],
+  "notificationTemplates": [
+    {
+      "id": "TPL-1",
+      "code": "RFQ_INVITE",
+      "name": "RFQ Invitation Dispatch",
+      "channel": "BOTH",
+      "subject": "Invitation to Quote: {{rfqNumber}}",
+      "bodyPreview": "You are invited to submit your sealed quotation before {{deadline}}.",
+      "active": true
+    },
+    {
+      "id": "TPL-2",
+      "code": "SUP_SEND_BACK",
+      "name": "Supplier Correction Required",
+      "channel": "BOTH",
+      "subject": "Action Required: {{applicationNumber}}",
+      "bodyPreview": "Reviewer requested corrections in permitted sections.",
+      "active": true
+    },
+    {
+      "id": "TPL-3",
+      "code": "RATE_APPROVAL",
+      "name": "Rate Approval Escalation",
+      "channel": "IN_APP",
+      "subject": "Approval Required: {{rfqNumber}}",
+      "bodyPreview": "Settled rate recommendation awaiting your sign-off.",
+      "active": true
+    },
+    {
+      "id": "TPL-4",
+      "code": "AWARD_NOTICE",
+      "name": "Business Award Notification",
+      "channel": "BOTH",
+      "subject": "Award Notification: {{awardNumber}}",
+      "bodyPreview": "Congratulations, your offer has been approved for business award.",
+      "active": true
+    }
+  ],
+  "workflowConfig": {
+    "supplierOnboardingStages": [
+      {
+        "stageOrder": 1,
+        "label": "SCM Review",
+        "approverType": "SCM_REVIEWER",
+        "mandatory": true,
+        "slaHours": 24
+      },
+      {
+        "stageOrder": 2,
+        "label": "Finance Review",
+        "approverType": "FINANCE_REVIEWER",
+        "mandatory": true,
+        "slaHours": 24
+      },
+      {
+        "stageOrder": 3,
+        "label": "Quality Review",
+        "approverType": "QUALITY_REVIEWER",
+        "mandatory": true,
+        "slaHours": 48
+      },
+      {
+        "stageOrder": 4,
+        "label": "Purchase Head Final Approval",
+        "approverType": "PURCHASE_HEAD",
+        "mandatory": true,
+        "slaHours": 24
+      }
+    ],
+    "rfqPublishStages": [
+      {
+        "stageOrder": 1,
+        "label": "SCM Manager",
+        "approverType": "SCM_MANAGER",
+        "mandatory": true,
+        "slaHours": 24
+      },
+      {
+        "stageOrder": 2,
+        "label": "Technical Reviewer",
+        "approverType": "TECHNICAL_REVIEWER",
+        "mandatory": true,
+        "slaHours": 24
+      }
+    ],
+    "requireRfqApprovalBeforePublish": true,
+    "requireTechnicalEvalBeforeCommercial": true,
+    "allowQuotationRevisions": true,
+    "rateApprovalRules": [
+      {
+        "id": "RULE-1",
+        "name": "Tier 1: Up to ₹5,00,000",
+        "minAmount": 0,
+        "maxAmount": 500000,
+        "currency": "INR",
+        "requireForNonL1": false,
+        "requireAboveBenchmarkPct": null,
+        "stages": [
+          {
+            "stageOrder": 1,
+            "label": "SCM Manager",
+            "approverType": "SCM_MANAGER",
+            "mandatory": true,
+            "slaHours": 24
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "RULE-2",
+        "name": "Tier 2: ₹5,00,001 to ₹25,00,000",
+        "minAmount": 500001,
+        "maxAmount": 2500000,
+        "currency": "INR",
+        "requireForNonL1": false,
+        "requireAboveBenchmarkPct": null,
+        "stages": [
+          {
+            "stageOrder": 1,
+            "label": "SCM Manager",
+            "approverType": "SCM_MANAGER",
+            "mandatory": true,
+            "slaHours": 24
+          },
+          {
+            "stageOrder": 2,
+            "label": "Finance Reviewer",
+            "approverType": "FINANCE_REVIEWER",
+            "mandatory": true,
+            "slaHours": 24
+          }
+        ],
+        "active": true
+      },
+      {
+        "id": "RULE-3",
+        "name": "Tier 3: Above ₹25,00,000",
+        "minAmount": 2500001,
+        "maxAmount": null,
+        "currency": "INR",
+        "requireForNonL1": false,
+        "requireAboveBenchmarkPct": null,
+        "stages": [
+          {
+            "stageOrder": 1,
+            "label": "SCM Manager",
+            "approverType": "SCM_MANAGER",
+            "mandatory": true,
+            "slaHours": 24
+          },
+          {
+            "stageOrder": 2,
+            "label": "Finance Reviewer",
+            "approverType": "FINANCE_REVIEWER",
+            "mandatory": true,
+            "slaHours": 24
+          },
+          {
+            "stageOrder": 3,
+            "label": "Purchase Head",
+            "approverType": "PURCHASE_HEAD",
+            "mandatory": true,
+            "slaHours": 24
+          },
+          {
+            "stageOrder": 4,
+            "label": "Management Approver",
+            "approverType": "MANAGEMENT_APPROVER",
+            "mandatory": true,
+            "slaHours": 48
+          }
+        ],
+        "active": true
+      }
+    ]
+  },
+  "suppliers": [
+    {
+      "id": "SUP-001",
+      "applicationNumber": "APP-2026-0001",
+      "supplierRegNo": "SRM-VND-1001",
+      "sapVendorCode": "0000104521",
+      "status": "ACTIVE",
+      "companyName": "Bharat Precision Forgings Pvt Ltd",
+      "legalEntityType": "Private Limited",
+      "email": "quotes@bharatforgings.in",
+      "mobile": "+91 98220 44110",
+      "otpVerified": true,
+      "registeredAddress": "Plot E-42, MIDC Bhosari Industrial Area, Pune 411026",
+      "communicationAddress": "Plot E-42, MIDC Bhosari Industrial Area, Pune 411026",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "gstNumber": "27AABCB4821M1Z5",
+      "panNumber": "AABCB4821M",
+      "msmeNumber": "UDYAM-MH-26-0041920",
+      "msmeCategory": "MEDIUM",
+      "supplierCategory": "Tier-1 Machining & Forgings",
+      "productCategories": [
+        "CNC Machined Castings",
+        "Powertrain Forgings",
+        "EV Extrusions"
+      ],
+      "manufacturingCapabilities": "5-Axis CNC Machining Centers, 2500T Closed-Die Forging Presses, CMM Inspection",
+      "qualityCertifications": [
+        "IATF 16949:2016",
+        "ISO 9001:2015",
+        "ISO 14001:2015"
+      ],
+      "qualityScore": 94,
+      "performanceScore": 92,
+      "annualTurnoverCr": 185,
+      "primaryContactName": "Nikhil Joshi",
+      "primaryContactDesignation": "Key Account Director",
+      "primaryContactPhone": "+91 98220 44110",
+      "bankDetails": {
+        "bankName": "HDFC Bank",
+        "branchName": "Bhosari MIDC Branch",
+        "accountNumber": "50200048192034",
+        "ifscCode": "HDFC0001822",
+        "accountType": "Current Account",
+        "beneficiaryName": "Bharat Precision Forgings Pvt Ltd"
+      },
+      "documents": [
+        {
+          "id": "DOC-101",
+          "docType": "GST_CERTIFICATE",
+          "fileName": "Bharat_GST_Reg.pdf",
+          "fileSize": "420 KB",
+          "uploadedAt": "2026-10-31T20:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-102",
+          "docType": "PAN_CARD",
+          "fileName": "Bharat_PAN.pdf",
+          "fileSize": "210 KB",
+          "uploadedAt": "2026-10-31T20:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-103",
+          "docType": "CANCELLED_CHEQUE",
+          "fileName": "Bharat_HDFC_Cheque.pdf",
+          "fileSize": "310 KB",
+          "uploadedAt": "2026-10-31T20:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-104",
+          "docType": "ISO_CERTIFICATE",
+          "fileName": "IATF_16949_Cert_2027.pdf",
+          "fileSize": "1.1 MB",
+          "uploadedAt": "2026-10-31T20:54:00.792Z",
+          "verified": true
+        }
+      ],
+      "permittedCorrectionSections": [],
+      "currentStageIndex": 4,
+      "approvalHistory": [
+        {
+          "id": "AH-1",
+          "stageLabel": "SCM Review",
+          "approverId": "USR-APR-SCM",
+          "approverName": "Meera Iyer",
+          "approverRole": "SCM_REVIEWER",
+          "action": "APPROVE",
+          "remarks": "Strong Tier-1 automotive forging footprint near Chakan plant.",
+          "previousStatus": "SUBMITTED",
+          "newStatus": "FINANCE_REVIEW",
+          "timestamp": "2026-11-01T16:54:00.792Z"
+        },
+        {
+          "id": "AH-2",
+          "stageLabel": "Finance Review",
+          "approverId": "USR-APR-FIN",
+          "approverName": "Arjun Mehta",
+          "approverRole": "FINANCE_REVIEWER",
+          "action": "APPROVE",
+          "remarks": "GSTIN and HDFC bank mandate verified.",
+          "previousStatus": "FINANCE_REVIEW",
+          "newStatus": "QUALITY_REVIEW",
+          "timestamp": "2026-11-02T02:54:00.792Z"
+        },
+        {
+          "id": "AH-3",
+          "stageLabel": "Quality Review",
+          "approverId": "USR-APR-QA",
+          "approverName": "Kavita Nair",
+          "approverRole": "QUALITY_REVIEWER",
+          "action": "APPROVE",
+          "remarks": "IATF 16949:2016 audit passed with 94% score.",
+          "previousStatus": "QUALITY_REVIEW",
+          "newStatus": "FINAL_APPROVAL",
+          "timestamp": "2026-11-02T12:54:00.792Z"
+        },
+        {
+          "id": "AH-4",
+          "stageLabel": "Purchase Head",
+          "approverId": "USR-APR-PH",
+          "approverName": "Deepak Sinha",
+          "approverRole": "PURCHASE_HEAD",
+          "action": "APPROVE",
+          "remarks": "Approved for strategic powertrain & chassis RFQs.",
+          "previousStatus": "FINAL_APPROVAL",
+          "newStatus": "APPROVED",
+          "timestamp": "2026-11-02T22:54:00.792Z"
+        },
+        {
+          "id": "AH-5",
+          "stageLabel": "Activation",
+          "approverId": "USR-ADM-01",
+          "approverName": "Ananya Sharma",
+          "approverRole": "ADMIN",
+          "action": "ACTIVATE",
+          "remarks": "SAP Vendor 0000104521 mapped and activated.",
+          "previousStatus": "APPROVED",
+          "newStatus": "ACTIVE",
+          "timestamp": "2026-11-03T03:54:00.792Z"
+        }
+      ],
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "createdAt": "2026-10-31T00:54:00.792Z",
+      "updatedAt": "2026-11-03T03:54:00.792Z"
+    },
+    {
+      "id": "SUP-002",
+      "applicationNumber": "APP-2026-0002",
+      "supplierRegNo": "SRM-VND-1002",
+      "sapVendorCode": "0000104598",
+      "status": "ACTIVE",
+      "companyName": "Kaveri CNC & Die Casting Ltd",
+      "legalEntityType": "Public Limited",
+      "email": "tenders@kavericnc.com",
+      "mobile": "+91 98401 77219",
+      "otpVerified": true,
+      "registeredAddress": "Survey 118, SIPCOT Industrial Park, Oragadam, Chennai 602105",
+      "communicationAddress": "Survey 118, SIPCOT Industrial Park, Oragadam, Chennai 602105",
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "country": "India",
+      "gstNumber": "33AAACK8192D1ZP",
+      "panNumber": "AAACK8192D",
+      "msmeNumber": "",
+      "msmeCategory": "NONE",
+      "supplierCategory": "Tier-1 Machining & Die Casting",
+      "productCategories": [
+        "CNC Machined Castings",
+        "EV Extrusions",
+        "Chassis Components"
+      ],
+      "manufacturingCapabilities": "HPDC 1200T Aluminum Die Casting, Robotic Deburring, VMC/HMC Lines",
+      "qualityCertifications": [
+        "IATF 16949:2016",
+        "ISO 9001:2015"
+      ],
+      "qualityScore": 91,
+      "performanceScore": 95,
+      "annualTurnoverCr": 340,
+      "primaryContactName": "Lakshmi Narayanan",
+      "primaryContactDesignation": "Head of Business Development",
+      "primaryContactPhone": "+91 98401 77219",
+      "bankDetails": {
+        "bankName": "ICICI Bank",
+        "branchName": "Oragadam Corporate Branch",
+        "accountNumber": "000905019283",
+        "ifscCode": "ICIC0000009",
+        "accountType": "Current Account",
+        "beneficiaryName": "Kaveri CNC & Die Casting Ltd"
+      },
+      "documents": [
+        {
+          "id": "DOC-201",
+          "docType": "GST_CERTIFICATE",
+          "fileName": "Kaveri_GST.pdf",
+          "fileSize": "390 KB",
+          "uploadedAt": "2026-11-01T06:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-202",
+          "docType": "PAN_CARD",
+          "fileName": "Kaveri_PAN.pdf",
+          "fileSize": "185 KB",
+          "uploadedAt": "2026-11-01T06:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-203",
+          "docType": "BANK_CONFIRMATION",
+          "fileName": "Kaveri_ICICI_Mandate.pdf",
+          "fileSize": "260 KB",
+          "uploadedAt": "2026-11-01T06:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-204",
+          "docType": "ISO_CERTIFICATE",
+          "fileName": "Kaveri_IATF_Cert.pdf",
+          "fileSize": "980 KB",
+          "uploadedAt": "2026-11-01T06:54:00.792Z",
+          "verified": true
+        }
+      ],
+      "permittedCorrectionSections": [],
+      "currentStageIndex": 4,
+      "approvalHistory": [
+        {
+          "id": "AH-21",
+          "stageLabel": "Activation",
+          "approverId": "USR-ADM-01",
+          "approverName": "Ananya Sharma",
+          "approverRole": "ADMIN",
+          "action": "ACTIVATE",
+          "remarks": "Activated across all plants with SAP Vendor 0000104598.",
+          "previousStatus": "APPROVED",
+          "newStatus": "ACTIVE",
+          "timestamp": "2026-11-03T18:54:00.792Z"
+        }
+      ],
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "createdAt": "2026-10-31T10:54:00.792Z",
+      "updatedAt": "2026-11-03T18:54:00.792Z"
+    },
+    {
+      "id": "SUP-003",
+      "applicationNumber": "APP-2026-0003",
+      "supplierRegNo": "SRM-VND-1003",
+      "sapVendorCode": "0000104612",
+      "status": "ACTIVE",
+      "companyName": "Shakti Automotive Fasteners & Shafts",
+      "legalEntityType": "Partnership Firm",
+      "email": "rfq@shaktifasteners.co.in",
+      "mobile": "+91 98114 66301",
+      "otpVerified": true,
+      "registeredAddress": "Plot 74, IMT Manesar Sector 8, Gurugram 122051",
+      "communicationAddress": "Plot 74, IMT Manesar Sector 8, Gurugram 122051",
+      "city": "Gurugram",
+      "state": "Haryana",
+      "country": "India",
+      "gstNumber": "06AAKFS9910P1Z8",
+      "panNumber": "AAKFS9910P",
+      "msmeNumber": "UDYAM-HR-05-0019281",
+      "msmeCategory": "SMALL",
+      "supplierCategory": "Tier-2 Precision Turned Parts",
+      "productCategories": [
+        "CNC Machined Castings",
+        "Chassis Components",
+        "Precision Fasteners"
+      ],
+      "manufacturingCapabilities": "Multi-Spindle Turning, Induction Hardening, Thread Rolling, Salt Spray Lab",
+      "qualityCertifications": [
+        "ISO 9001:2015",
+        "IATF 16949:2016"
+      ],
+      "qualityScore": 87,
+      "performanceScore": 89,
+      "annualTurnoverCr": 68,
+      "primaryContactName": "Harpreet Singh",
+      "primaryContactDesignation": "OEM Sales Lead",
+      "primaryContactPhone": "+91 98114 66301",
+      "bankDetails": {
+        "bankName": "Axis Bank",
+        "branchName": "IMT Manesar",
+        "accountNumber": "918020048120911",
+        "ifscCode": "UTIB0001421",
+        "accountType": "Current Account",
+        "beneficiaryName": "Shakti Automotive Fasteners & Shafts"
+      },
+      "documents": [
+        {
+          "id": "DOC-301",
+          "docType": "GST_CERTIFICATE",
+          "fileName": "Shakti_GST.pdf",
+          "fileSize": "310 KB",
+          "uploadedAt": "2026-11-05T00:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-302",
+          "docType": "MSME_CERTIFICATE",
+          "fileName": "Shakti_Udyam.pdf",
+          "fileSize": "215 KB",
+          "uploadedAt": "2026-11-05T00:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-303",
+          "docType": "CANCELLED_CHEQUE",
+          "fileName": "Shakti_Axis_Cheque.pdf",
+          "fileSize": "280 KB",
+          "uploadedAt": "2026-11-05T00:54:00.792Z",
+          "verified": true
+        }
+      ],
+      "permittedCorrectionSections": [],
+      "currentStageIndex": 4,
+      "approvalHistory": [
+        {
+          "id": "AH-31",
+          "stageLabel": "Activation",
+          "approverId": "USR-ADM-01",
+          "approverName": "Ananya Sharma",
+          "approverRole": "ADMIN",
+          "action": "ACTIVATE",
+          "remarks": "Active MSME Tier-2 supplier.",
+          "previousStatus": "APPROVED",
+          "newStatus": "ACTIVE",
+          "timestamp": "2026-11-05T20:54:00.792Z"
+        }
+      ],
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1020",
+        "PLT-1030"
+      ],
+      "createdAt": "2026-11-04T04:54:00.792Z",
+      "updatedAt": "2026-11-05T20:54:00.792Z"
+    },
+    {
+      "id": "SUP-004",
+      "applicationNumber": "APP-2026-0004",
+      "status": "QUALITY_REVIEW",
+      "companyName": "Deccan EV Thermal Systems Pvt Ltd",
+      "legalEntityType": "Private Limited",
+      "email": "onboarding@deccanev.in",
+      "mobile": "+91 99001 54120",
+      "otpVerified": true,
+      "registeredAddress": "Phase II, Bommasandra Industrial Area, Bengaluru 560099",
+      "communicationAddress": "Phase II, Bommasandra Industrial Area, Bengaluru 560099",
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "country": "India",
+      "gstNumber": "29AABCD7120F1Z2",
+      "panNumber": "AABCD7120F",
+      "msmeNumber": "UDYAM-KA-03-0077214",
+      "msmeCategory": "MEDIUM",
+      "supplierCategory": "EV Thermal & Cooling",
+      "productCategories": [
+        "EV Extrusions",
+        "Thermal Management Modules"
+      ],
+      "manufacturingCapabilities": "Vacuum Brazing Furnaces, Helium Leak Testing, CNC Cold Plate Milling",
+      "qualityCertifications": [
+        "ISO 9001:2015",
+        "VDA 6.3"
+      ],
+      "qualityScore": 86,
+      "performanceScore": 84,
+      "annualTurnoverCr": 94,
+      "primaryContactName": "Karthik Reddy",
+      "primaryContactDesignation": "Director – EV Programs",
+      "primaryContactPhone": "+91 99001 54120",
+      "bankDetails": {
+        "bankName": "Kotak Mahindra Bank",
+        "branchName": "Electronic City",
+        "accountNumber": "4412098412",
+        "ifscCode": "KKBK0000422",
+        "accountType": "Current Account",
+        "beneficiaryName": "Deccan EV Thermal Systems Pvt Ltd"
+      },
+      "documents": [
+        {
+          "id": "DOC-401",
+          "docType": "GST_CERTIFICATE",
+          "fileName": "Deccan_GST.pdf",
+          "fileSize": "410 KB",
+          "uploadedAt": "2026-11-15T20:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-402",
+          "docType": "PAN_CARD",
+          "fileName": "Deccan_PAN.pdf",
+          "fileSize": "190 KB",
+          "uploadedAt": "2026-11-15T20:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-403",
+          "docType": "CANCELLED_CHEQUE",
+          "fileName": "Deccan_Cheque.pdf",
+          "fileSize": "250 KB",
+          "uploadedAt": "2026-11-15T20:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-404",
+          "docType": "ISO_CERTIFICATE",
+          "fileName": "Deccan_ISO_VDA.pdf",
+          "fileSize": "890 KB",
+          "uploadedAt": "2026-11-15T20:54:00.792Z",
+          "verified": false
+        }
+      ],
+      "permittedCorrectionSections": [],
+      "currentStageIndex": 2,
+      "approvalHistory": [
+        {
+          "id": "AH-41",
+          "stageLabel": "Supplier Submission",
+          "approverId": "USR-SUP-04",
+          "approverName": "Karthik Reddy",
+          "approverRole": "SUPPLIER",
+          "action": "SUBMIT",
+          "remarks": "Submitted complete dossier for Sanand EV plant.",
+          "previousStatus": "DRAFT",
+          "newStatus": "SUBMITTED",
+          "timestamp": "2026-11-15T22:54:00.792Z"
+        },
+        {
+          "id": "AH-42",
+          "stageLabel": "SCM Review",
+          "approverId": "USR-APR-SCM",
+          "approverName": "Meera Iyer",
+          "approverRole": "SCM_REVIEWER",
+          "action": "APPROVE",
+          "remarks": "Capabilities match EV cold plate roadmap.",
+          "previousStatus": "SUBMITTED",
+          "newStatus": "FINANCE_REVIEW",
+          "timestamp": "2026-11-16T12:54:00.792Z"
+        },
+        {
+          "id": "AH-43",
+          "stageLabel": "Finance Review",
+          "approverId": "USR-APR-FIN",
+          "approverName": "Arjun Mehta",
+          "approverRole": "FINANCE_REVIEWER",
+          "action": "APPROVE",
+          "remarks": "GST, PAN, and Kotak bank account validated.",
+          "previousStatus": "FINANCE_REVIEW",
+          "newStatus": "QUALITY_REVIEW",
+          "timestamp": "2026-11-17T00:54:00.792Z"
+        }
+      ],
+      "plantIds": [
+        "PLT-1030"
+      ],
+      "createdAt": "2026-11-15T18:54:00.792Z",
+      "updatedAt": "2026-11-17T00:54:00.792Z"
+    },
+    {
+      "id": "SUP-005",
+      "applicationNumber": "APP-2026-0005",
+      "status": "CORRECTION_REQUIRED",
+      "companyName": "Omega Elastomers & Precision Seals",
+      "legalEntityType": "Private Limited",
+      "email": "compliance@omegaelastomers.in",
+      "mobile": "+91 98250 11842",
+      "otpVerified": true,
+      "registeredAddress": "GIDC Vatva Phase IV, Ahmedabad 382445",
+      "communicationAddress": "GIDC Vatva Phase IV, Ahmedabad 382445",
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "country": "India",
+      "gstNumber": "24AAACO6621K1Z9",
+      "panNumber": "AAACO6621K",
+      "msmeNumber": "UDYAM-GJ-01-0029104",
+      "msmeCategory": "SMALL",
+      "supplierCategory": "Rubber, Seals & Gaskets",
+      "productCategories": [
+        "Elastomer Seals & Gaskets"
+      ],
+      "manufacturingCapabilities": "Injection Rubber Molding, Compression Molding, Rheometer Lab",
+      "qualityCertifications": [
+        "ISO 9001:2015"
+      ],
+      "qualityScore": 76,
+      "performanceScore": 78,
+      "annualTurnoverCr": 42,
+      "primaryContactName": "Manish Desai",
+      "primaryContactDesignation": "Quality & Compliance Head",
+      "primaryContactPhone": "+91 98250 11842",
+      "bankDetails": {
+        "bankName": "State Bank of India",
+        "branchName": "Vatva Industrial Estate",
+        "accountNumber": "38192041182",
+        "ifscCode": "SBIN0003044",
+        "accountType": "Current Account",
+        "beneficiaryName": "Omega Elastomers & Seals"
+      },
+      "documents": [
+        {
+          "id": "DOC-501",
+          "docType": "GST_CERTIFICATE",
+          "fileName": "Omega_GST.pdf",
+          "fileSize": "360 KB",
+          "uploadedAt": "2026-11-14T12:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-502",
+          "docType": "PAN_CARD",
+          "fileName": "Omega_PAN.pdf",
+          "fileSize": "195 KB",
+          "uploadedAt": "2026-11-14T12:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-503",
+          "docType": "CANCELLED_CHEQUE",
+          "fileName": "Omega_Cheque_Unclear.pdf",
+          "fileSize": "140 KB",
+          "uploadedAt": "2026-11-14T12:54:00.792Z",
+          "verified": false,
+          "remarks": "IFSC code blurred on scan"
+        }
+      ],
+      "permittedCorrectionSections": [
+        "bankDetails",
+        "documents"
+      ],
+      "currentStageIndex": 1,
+      "approvalHistory": [
+        {
+          "id": "AH-51",
+          "stageLabel": "SCM Review",
+          "approverId": "USR-APR-SCM",
+          "approverName": "Meera Iyer",
+          "approverRole": "SCM_REVIEWER",
+          "action": "APPROVE",
+          "remarks": "Elastomer tooling capacity confirmed.",
+          "previousStatus": "SUBMITTED",
+          "newStatus": "FINANCE_REVIEW",
+          "timestamp": "2026-11-15T15:54:00.792Z"
+        },
+        {
+          "id": "AH-52",
+          "stageLabel": "Finance Review",
+          "approverId": "USR-APR-FIN",
+          "approverName": "Arjun Mehta",
+          "approverRole": "FINANCE_REVIEWER",
+          "action": "SEND_BACK",
+          "remarks": "Beneficiary name mismatches legal GST name and cancelled cheque IFSC is illegible. Please correct bank details and re-upload.",
+          "previousStatus": "FINANCE_REVIEW",
+          "newStatus": "CORRECTION_REQUIRED",
+          "timestamp": "2026-11-16T16:54:00.792Z"
+        }
+      ],
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1030"
+      ],
+      "createdAt": "2026-11-14T04:54:00.792Z",
+      "updatedAt": "2026-11-16T16:54:00.792Z"
+    },
+    {
+      "id": "SUP-006",
+      "applicationNumber": "APP-2026-0006",
+      "supplierRegNo": "SRM-VND-1004",
+      "status": "APPROVED",
+      "companyName": "Vanguard Stamping & Laminations India",
+      "legalEntityType": "Private Limited",
+      "email": "sales@vanguardstamping.com",
+      "mobile": "+91 98182 33900",
+      "otpVerified": true,
+      "registeredAddress": "Plot 19, Chakan MIDC Phase II, Pune 410501",
+      "communicationAddress": "Plot 19, Chakan MIDC Phase II, Pune 410501",
+      "city": "Pune",
+      "state": "Maharashtra",
+      "country": "India",
+      "gstNumber": "27AAACV5512L1Z4",
+      "panNumber": "AAACV5512L",
+      "msmeNumber": "",
+      "msmeCategory": "NONE",
+      "supplierCategory": "Sheet Metal & Motor Laminations",
+      "productCategories": [
+        "Stator Laminations",
+        "Chassis Components"
+      ],
+      "manufacturingCapabilities": "High-Speed Progressive Stamping (400T), Laser Interlocking, Annealing",
+      "qualityCertifications": [
+        "IATF 16949:2016",
+        "ISO 9001:2015"
+      ],
+      "qualityScore": 90,
+      "performanceScore": 88,
+      "annualTurnoverCr": 150,
+      "primaryContactName": "Amitabh Kulkarni",
+      "primaryContactDesignation": "VP Sales",
+      "primaryContactPhone": "+91 98182 33900",
+      "bankDetails": {
+        "bankName": "HDFC Bank",
+        "branchName": "Chakan",
+        "accountNumber": "50200077412890",
+        "ifscCode": "HDFC0002411",
+        "accountType": "Current Account",
+        "beneficiaryName": "Vanguard Stamping & Laminations India"
+      },
+      "documents": [
+        {
+          "id": "DOC-601",
+          "docType": "GST_CERTIFICATE",
+          "fileName": "Vanguard_GST.pdf",
+          "fileSize": "405 KB",
+          "uploadedAt": "2026-11-13T18:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-602",
+          "docType": "PAN_CARD",
+          "fileName": "Vanguard_PAN.pdf",
+          "fileSize": "180 KB",
+          "uploadedAt": "2026-11-13T18:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-603",
+          "docType": "CANCELLED_CHEQUE",
+          "fileName": "Vanguard_Cheque.pdf",
+          "fileSize": "260 KB",
+          "uploadedAt": "2026-11-13T18:54:00.792Z",
+          "verified": true
+        },
+        {
+          "id": "DOC-604",
+          "docType": "ISO_CERTIFICATE",
+          "fileName": "Vanguard_IATF.pdf",
+          "fileSize": "1.2 MB",
+          "uploadedAt": "2026-11-13T18:54:00.792Z",
+          "verified": true
+        }
+      ],
+      "permittedCorrectionSections": [],
+      "currentStageIndex": 4,
+      "approvalHistory": [
+        {
+          "id": "AH-61",
+          "stageLabel": "Purchase Head",
+          "approverId": "USR-APR-PH",
+          "approverName": "Deepak Sinha",
+          "approverRole": "PURCHASE_HEAD",
+          "action": "APPROVE",
+          "remarks": "All reviews cleared. Ready for SAP Vendor creation & Activation.",
+          "previousStatus": "FINAL_APPROVAL",
+          "newStatus": "APPROVED",
+          "timestamp": "2026-11-17T06:54:00.792Z"
+        }
+      ],
+      "plantIds": [
+        "PLT-1010",
+        "PLT-1030"
+      ],
+      "createdAt": "2026-11-13T08:54:00.792Z",
+      "updatedAt": "2026-11-17T06:54:00.792Z"
+    }
+  ],
+  "rfqs": [
+    {
+      "id": "RFQ-101",
+      "rfqNumber": "RFQ-2026-0101",
+      "title": "CNC Machined Crankshaft Housing & Timing Cover (MY27)",
+      "project": "PRJ-X7 Powertrain Localization",
+      "companyId": "COMP-01",
+      "plantId": "PLT-1010",
+      "departmentId": "DEPT-PC",
+      "purchasingGroup": "PG-01",
+      "materialCategory": "CNC Machined Castings",
+      "currency": "INR",
+      "quotationDeadline": "2026-11-22T12:54:00.792Z",
+      "requiredDeliveryDate": "2027-01-01T12:54:00.792Z",
+      "deliveryLocation": "Pune Chakan Plant 1010 – Gate 4 Receiving Bay",
+      "technicalContact": "Suresh Patel (tech.reviewer@autocorp-srm.com)",
+      "commercialContact": "Rajesh Kulkarni (rajesh.kulkarni@autocorp-srm.com)",
+      "paymentTerms": "NET45",
+      "incoterms": "DAP",
+      "termsAndConditions": "PPAP Level 3 required prior to SOP. 100% CMM dimensional report with first 50 pilot parts. 24-month field warranty.",
+      "allowRevisions": true,
+      "requireTechEvalFirst": true,
+      "minSuppliersRequired": 2,
+      "status": "PUBLISHED",
+      "items": [
+        {
+          "id": "ITEM-101-1",
+          "lineNo": 10,
+          "materialCode": "MAT-PT-40912",
+          "description": "Crankshaft Rear Oil Seal Housing (AlSi9Cu3)",
+          "drawingNumber": "DRW-PT-40912-R4",
+          "revisionNumber": "Rev 04",
+          "quantity": 1200,
+          "uom": "NOS",
+          "targetDeliveryDate": "2026-12-27T12:54:00.792Z",
+          "plantId": "PLT-1010",
+          "storageLocation": "SL-1010-PT",
+          "benchmarkRate": 1420,
+          "previousPurchaseRate": 1485,
+          "technicalSpecs": "5-axis finish milling; flatness <= 0.03mm; helium leak test < 1.5 cc/min at 2 bar."
+        },
+        {
+          "id": "ITEM-101-2",
+          "lineNo": 20,
+          "materialCode": "MAT-PT-40918",
+          "description": "Front Timing Chain Cover Assembly",
+          "drawingNumber": "DRW-PT-40918-R2",
+          "revisionNumber": "Rev 02",
+          "quantity": 1200,
+          "uom": "NOS",
+          "targetDeliveryDate": "2027-01-01T12:54:00.792Z",
+          "plantId": "PLT-1010",
+          "storageLocation": "SL-1010-PT",
+          "benchmarkRate": 960,
+          "previousPurchaseRate": 1010,
+          "technicalSpecs": "Die cast + CNC bore; Ra 0.8 finish on gasket mating face; chromate conversion coat."
+        }
+      ],
+      "attachments": [
+        {
+          "id": "ATT-101-1",
+          "fileName": "DRW-PT-40912-R4_3D_STEP_Pack.pdf",
+          "category": "DRAWING",
+          "uploadedBy": "Rajesh Kulkarni",
+          "uploadedAt": "2026-11-14T12:54:00.792Z",
+          "fileSize": "4.6 MB"
+        },
+        {
+          "id": "ATT-101-2",
+          "fileName": "AutoCorp_SQM_PPAP_L3_Spec.pdf",
+          "category": "QUALITY_REQ",
+          "uploadedBy": "Rajesh Kulkarni",
+          "uploadedAt": "2026-11-14T12:54:00.792Z",
+          "fileSize": "1.2 MB"
+        }
+      ],
+      "invitedSupplierIds": [
+        "SUP-001",
+        "SUP-002",
+        "SUP-003"
+      ],
+      "participations": [
+        {
+          "supplierId": "SUP-001",
+          "supplierName": "Bharat Precision Forgings Pvt Ltd",
+          "status": "QUOTED",
+          "acknowledgedAt": "2026-11-14T16:54:00.792Z",
+          "updatedAt": "2026-11-16T16:54:00.792Z"
+        },
+        {
+          "supplierId": "SUP-002",
+          "supplierName": "Kaveri CNC & Die Casting Ltd",
+          "status": "QUOTED",
+          "acknowledgedAt": "2026-11-14T19:54:00.792Z",
+          "updatedAt": "2026-11-16T18:54:00.792Z"
+        },
+        {
+          "supplierId": "SUP-003",
+          "supplierName": "Shakti Automotive Fasteners & Shafts",
+          "status": "INTENDING",
+          "acknowledgedAt": "2026-11-15T10:54:00.792Z",
+          "updatedAt": "2026-11-16T06:54:00.792Z"
+        }
+      ],
+      "clarifications": [
+        {
+          "id": "CLR-101-1",
+          "rfqId": "RFQ-101",
+          "supplierId": "SUP-002",
+          "supplierName": "Kaveri CNC & Die Casting Ltd",
+          "question": "Confirm whether helium leak fixture is customer-supplied or part of supplier tooling scope.",
+          "answer": "Helium leak test fixture is part of supplier tooling scope and must be itemized under Tooling Cost.",
+          "raisedAt": "2026-11-15T05:54:00.792Z",
+          "answeredBy": "Suresh Patel",
+          "answeredAt": "2026-11-15T12:54:00.792Z",
+          "status": "ANSWERED"
+        }
+      ],
+      "rfqApprovalChain": [
+        {
+          "stageOrder": 1,
+          "label": "SCM Manager",
+          "approverType": "SCM_MANAGER",
+          "status": "APPROVED",
+          "actionBy": "Rohan Kapoor",
+          "actionAt": "2026-11-14T08:54:00.792Z",
+          "remarks": "Approved for release to Tier-1 machining panel."
+        },
+        {
+          "stageOrder": 2,
+          "label": "Technical Reviewer",
+          "approverType": "TECHNICAL_REVIEWER",
+          "status": "APPROVED",
+          "actionBy": "Suresh Patel",
+          "actionAt": "2026-11-14T10:54:00.792Z",
+          "remarks": "Rev 04 tolerances and GD&T verified."
+        }
+      ],
+      "rfqApprovalHistory": [
+        {
+          "id": "RA-101-1",
+          "stageLabel": "SCM Manager",
+          "approverId": "USR-APR-SCMM",
+          "approverName": "Rohan Kapoor",
+          "approverRole": "SCM_MANAGER",
+          "action": "APPROVE",
+          "remarks": "Approved for release.",
+          "previousStatus": "PENDING_APPROVAL",
+          "newStatus": "APPROVED",
+          "timestamp": "2026-11-14T08:54:00.792Z"
+        }
+      ],
+      "currentRfqApprovalStep": 2,
+      "deadlineHistory": [],
+      "createdBy": "USR-BUY-01",
+      "createdByName": "Rajesh Kulkarni",
+      "createdAt": "2026-11-14T00:54:00.792Z",
+      "updatedAt": "2026-11-16T18:54:00.792Z"
+    },
+    {
+      "id": "RFQ-102",
+      "rfqNumber": "RFQ-2026-0102",
+      "title": "Forged Lower Control Arm & Steering Knuckle Batch",
+      "project": "PRJ-SUV26 Chassis Refresh",
+      "companyId": "COMP-01",
+      "plantId": "PLT-1020",
+      "departmentId": "DEPT-CH",
+      "purchasingGroup": "PG-02",
+      "materialCategory": "Powertrain Forgings",
+      "currency": "INR",
+      "quotationDeadline": "2026-11-16T12:54:00.792Z",
+      "requiredDeliveryDate": "2026-12-22T12:54:00.792Z",
+      "deliveryLocation": "Chennai Oragadam Plant 1020 – Chassis Line B",
+      "technicalContact": "Suresh Patel (tech.reviewer@autocorp-srm.com)",
+      "commercialContact": "Rajesh Kulkarni (rajesh.kulkarni@autocorp-srm.com)",
+      "paymentTerms": "NET45",
+      "incoterms": "DAP",
+      "termsAndConditions": "100% magnetic particle inspection (MPI) required on forged knuckles. Annual volume 24,000 units.",
+      "allowRevisions": true,
+      "requireTechEvalFirst": true,
+      "minSuppliersRequired": 2,
+      "status": "NEGOTIATION",
+      "items": [
+        {
+          "id": "ITEM-102-1",
+          "lineNo": 10,
+          "materialCode": "MAT-CH-88201",
+          "description": "Forged Steel Lower Control Arm (42CrMo4)",
+          "drawingNumber": "DRW-CH-88201-R3",
+          "revisionNumber": "Rev 03",
+          "quantity": 1000,
+          "uom": "NOS",
+          "targetDeliveryDate": "2026-12-17T12:54:00.792Z",
+          "plantId": "PLT-1020",
+          "storageLocation": "SL-1020-CH",
+          "benchmarkRate": 1850,
+          "previousPurchaseRate": 1940,
+          "technicalSpecs": "Closed-die forging + quenching/tempering 28-32 HRC; shot blasted + e-coated."
+        },
+        {
+          "id": "ITEM-102-2",
+          "lineNo": 20,
+          "materialCode": "MAT-CH-88205",
+          "description": "Front Steering Knuckle Machined",
+          "drawingNumber": "DRW-CH-88205-R1",
+          "revisionNumber": "Rev 01",
+          "quantity": 1000,
+          "uom": "NOS",
+          "targetDeliveryDate": "2026-12-22T12:54:00.792Z",
+          "plantId": "PLT-1020",
+          "storageLocation": "SL-1020-CH",
+          "benchmarkRate": 2150,
+          "previousPurchaseRate": 2290,
+          "technicalSpecs": "SG Iron / Forged Steel; precision bearing bore H7; 100% MPI crack test."
+        }
+      ],
+      "attachments": [
+        {
+          "id": "ATT-102-1",
+          "fileName": "DRW-CH-88201_88205_Pack.pdf",
+          "category": "DRAWING",
+          "uploadedBy": "Rajesh Kulkarni",
+          "uploadedAt": "2026-11-10T20:54:00.792Z",
+          "fileSize": "3.9 MB"
+        }
+      ],
+      "invitedSupplierIds": [
+        "SUP-001",
+        "SUP-002",
+        "SUP-003"
+      ],
+      "participations": [
+        {
+          "supplierId": "SUP-001",
+          "supplierName": "Bharat Precision Forgings Pvt Ltd",
+          "status": "QUOTED",
+          "acknowledgedAt": "2026-11-11T16:54:00.792Z",
+          "updatedAt": "2026-11-15T20:54:00.792Z"
+        },
+        {
+          "supplierId": "SUP-002",
+          "supplierName": "Kaveri CNC & Die Casting Ltd",
+          "status": "QUOTED",
+          "acknowledgedAt": "2026-11-11T21:54:00.792Z",
+          "updatedAt": "2026-11-15T22:54:00.792Z"
+        },
+        {
+          "supplierId": "SUP-003",
+          "supplierName": "Shakti Automotive Fasteners & Shafts",
+          "status": "QUOTED",
+          "acknowledgedAt": "2026-11-12T02:54:00.792Z",
+          "updatedAt": "2026-11-16T00:54:00.792Z"
+        }
+      ],
+      "clarifications": [],
+      "rfqApprovalChain": [
+        {
+          "stageOrder": 1,
+          "label": "SCM Manager",
+          "approverType": "SCM_MANAGER",
+          "status": "APPROVED",
+          "actionBy": "Rohan Kapoor",
+          "actionAt": "2026-11-11T01:54:00.792Z",
+          "remarks": "Approved."
+        }
+      ],
+      "rfqApprovalHistory": [],
+      "currentRfqApprovalStep": 1,
+      "deadlineHistory": [],
+      "createdBy": "USR-BUY-01",
+      "createdByName": "Rajesh Kulkarni",
+      "createdAt": "2026-11-10T12:54:00.792Z",
+      "updatedAt": "2026-11-17T04:54:00.792Z"
+    },
+    {
+      "id": "RFQ-103",
+      "rfqNumber": "RFQ-2026-0103",
+      "title": "EV Battery Pack Extruded Aluminum Crash Rail & Cold Plate",
+      "project": "PRJ-EV900 Skateboard Platform",
+      "companyId": "COMP-01",
+      "plantId": "PLT-1030",
+      "departmentId": "DEPT-EV",
+      "purchasingGroup": "PG-03",
+      "materialCategory": "EV Extrusions",
+      "currency": "INR",
+      "quotationDeadline": "2026-11-15T12:54:00.792Z",
+      "requiredDeliveryDate": "2026-12-15T12:54:00.792Z",
+      "deliveryLocation": "Sanand EV Plant 1030 – Battery Assembly Wing",
+      "technicalContact": "Suresh Patel (tech.reviewer@autocorp-srm.com)",
+      "commercialContact": "Rajesh Kulkarni (rajesh.kulkarni@autocorp-srm.com)",
+      "paymentTerms": "NET30",
+      "incoterms": "DDP",
+      "termsAndConditions": "6061-T6 / 6082-T6 certified mill test reports mandatory. Zero porosity thermal weld qualification.",
+      "allowRevisions": false,
+      "requireTechEvalFirst": true,
+      "minSuppliersRequired": 2,
+      "status": "RATE_APPROVAL",
+      "items": [
+        {
+          "id": "ITEM-103-1",
+          "lineNo": 10,
+          "materialCode": "MAT-EV-90110",
+          "description": "Extruded Aluminum Side Impact Crash Rail (6082-T6)",
+          "drawingNumber": "DRW-EV-90110-R2",
+          "revisionNumber": "Rev 02",
+          "quantity": 1000,
+          "uom": "NOS",
+          "targetDeliveryDate": "2026-12-15T12:54:00.792Z",
+          "plantId": "PLT-1030",
+          "storageLocation": "SL-1030-EV",
+          "benchmarkRate": 2650,
+          "previousPurchaseRate": 2790,
+          "technicalSpecs": "Multi-hollow profile extrusion + CNC end slots; crash energy validation cert."
+        }
+      ],
+      "attachments": [
+        {
+          "id": "ATT-103-1",
+          "fileName": "EV900_CrashRail_Spec.pdf",
+          "category": "SPECIFICATION",
+          "uploadedBy": "Rajesh Kulkarni",
+          "uploadedAt": "2026-11-08T08:54:00.792Z",
+          "fileSize": "5.1 MB"
+        }
+      ],
+      "invitedSupplierIds": [
+        "SUP-001",
+        "SUP-002"
+      ],
+      "participations": [
+        {
+          "supplierId": "SUP-001",
+          "supplierName": "Bharat Precision Forgings Pvt Ltd",
+          "status": "QUOTED",
+          "acknowledgedAt": "2026-11-09T04:54:00.792Z",
+          "updatedAt": "2026-11-14T14:54:00.792Z"
+        },
+        {
+          "supplierId": "SUP-002",
+          "supplierName": "Kaveri CNC & Die Casting Ltd",
+          "status": "QUOTED",
+          "acknowledgedAt": "2026-11-09T06:54:00.792Z",
+          "updatedAt": "2026-11-14T19:54:00.792Z"
+        }
+      ],
+      "clarifications": [],
+      "rfqApprovalChain": [
+        {
+          "stageOrder": 1,
+          "label": "SCM Manager",
+          "approverType": "SCM_MANAGER",
+          "status": "APPROVED",
+          "actionBy": "Rohan Kapoor",
+          "actionAt": "2026-11-08T13:54:00.792Z",
+          "remarks": "Approved."
+        }
+      ],
+      "rfqApprovalHistory": [],
+      "currentRfqApprovalStep": 1,
+      "deadlineHistory": [],
+      "createdBy": "USR-BUY-01",
+      "createdByName": "Rajesh Kulkarni",
+      "createdAt": "2026-11-07T22:54:00.792Z",
+      "updatedAt": "2026-11-17T08:54:00.792Z"
+    },
+    {
+      "id": "RFQ-104",
+      "rfqNumber": "RFQ-2026-0104",
+      "title": "Rear Axle Differential Hypoid Pinion Shafts",
+      "project": "PRJ-LCV Axle Program",
+      "companyId": "COMP-01",
+      "plantId": "PLT-1010",
+      "departmentId": "DEPT-PC",
+      "purchasingGroup": "PG-01",
+      "materialCategory": "Powertrain Forgings",
+      "currency": "INR",
+      "quotationDeadline": "2026-11-27T12:54:00.792Z",
+      "requiredDeliveryDate": "2027-01-06T12:54:00.792Z",
+      "deliveryLocation": "Pune Chakan Plant 1010 – Axle Assembly",
+      "technicalContact": "Suresh Patel",
+      "commercialContact": "Rajesh Kulkarni",
+      "paymentTerms": "NET45",
+      "incoterms": "DAP",
+      "termsAndConditions": "Case carburized 20MnCr5; 58-62 HRC gear teeth; Klingelnberg gear profile inspection.",
+      "allowRevisions": true,
+      "requireTechEvalFirst": true,
+      "minSuppliersRequired": 2,
+      "status": "PENDING_APPROVAL",
+      "items": [
+        {
+          "id": "ITEM-104-1",
+          "lineNo": 10,
+          "materialCode": "MAT-PT-55012",
+          "description": "Hypoid Drive Pinion Shaft (20MnCr5)",
+          "drawingNumber": "DRW-PT-55012-R1",
+          "revisionNumber": "Rev 01",
+          "quantity": 800,
+          "uom": "NOS",
+          "targetDeliveryDate": "2027-01-06T12:54:00.792Z",
+          "plantId": "PLT-1010",
+          "storageLocation": "SL-1010-PT",
+          "benchmarkRate": 1740,
+          "previousPurchaseRate": 1810,
+          "technicalSpecs": "Forged + gear hobbing + case hardening + precision grinding."
+        }
+      ],
+      "attachments": [
+        {
+          "id": "ATT-104-1",
+          "fileName": "DRW-PT-55012-R1_GearData.pdf",
+          "category": "DRAWING",
+          "uploadedBy": "Rajesh Kulkarni",
+          "uploadedAt": "2026-11-17T02:54:00.792Z",
+          "fileSize": "2.8 MB"
+        }
+      ],
+      "invitedSupplierIds": [
+        "SUP-001",
+        "SUP-003"
+      ],
+      "participations": [
+        {
+          "supplierId": "SUP-001",
+          "supplierName": "Bharat Precision Forgings Pvt Ltd",
+          "status": "INVITED",
+          "updatedAt": "2026-11-17T02:54:00.792Z"
+        },
+        {
+          "supplierId": "SUP-003",
+          "supplierName": "Shakti Automotive Fasteners & Shafts",
+          "status": "INVITED",
+          "updatedAt": "2026-11-17T02:54:00.792Z"
+        }
+      ],
+      "clarifications": [],
+      "rfqApprovalChain": [
+        {
+          "stageOrder": 1,
+          "label": "SCM Manager",
+          "approverType": "SCM_MANAGER",
+          "status": "PENDING"
+        },
+        {
+          "stageOrder": 2,
+          "label": "Technical Reviewer",
+          "approverType": "TECHNICAL_REVIEWER",
+          "status": "PENDING"
+        }
+      ],
+      "rfqApprovalHistory": [
+        {
+          "id": "RA-104-1",
+          "stageLabel": "Buyer Submission",
+          "approverId": "USR-BUY-01",
+          "approverName": "Rajesh Kulkarni",
+          "approverRole": "BUYER",
+          "action": "SUBMIT",
+          "remarks": "Submitted for RFQ publishing approval.",
+          "previousStatus": "DRAFT",
+          "newStatus": "PENDING_APPROVAL",
+          "timestamp": "2026-11-17T02:54:00.792Z"
+        }
+      ],
+      "currentRfqApprovalStep": 0,
+      "deadlineHistory": [],
+      "createdBy": "USR-BUY-01",
+      "createdByName": "Rajesh Kulkarni",
+      "createdAt": "2026-11-16T22:54:00.792Z",
+      "updatedAt": "2026-11-17T02:54:00.792Z"
+    },
+    {
+      "id": "RFQ-105",
+      "rfqNumber": "RFQ-2026-0105",
+      "title": "Precision Stator Core Silicon Steel Laminations",
+      "project": "PRJ-EV900 Traction Motor",
+      "companyId": "COMP-01",
+      "plantId": "PLT-1030",
+      "departmentId": "DEPT-EV",
+      "purchasingGroup": "PG-03",
+      "materialCategory": "Stator Laminations",
+      "currency": "INR",
+      "quotationDeadline": "2026-11-12T12:54:00.792Z",
+      "requiredDeliveryDate": "2026-12-01T12:54:00.792Z",
+      "deliveryLocation": "Sanand EV Plant 1030 – E-Drive Bay",
+      "technicalContact": "Suresh Patel",
+      "commercialContact": "Rajesh Kulkarni",
+      "paymentTerms": "NET30",
+      "incoterms": "DAP",
+      "termsAndConditions": "NO27 electrical steel grade, laser welded stack, core loss <= 2.3 W/kg.",
+      "allowRevisions": false,
+      "requireTechEvalFirst": true,
+      "minSuppliersRequired": 2,
+      "status": "AWARDED",
+      "awardNumber": "AWD-2026-0041",
+      "items": [
+        {
+          "id": "ITEM-105-1",
+          "lineNo": 10,
+          "materialCode": "MAT-EV-77410",
+          "description": "Traction Motor Stator Stack (NO27 0.27mm)",
+          "drawingNumber": "DRW-EV-77410-R5",
+          "revisionNumber": "Rev 05",
+          "quantity": 500,
+          "uom": "SET",
+          "targetDeliveryDate": "2026-12-01T12:54:00.792Z",
+          "plantId": "PLT-1030",
+          "storageLocation": "SL-1030-EV",
+          "benchmarkRate": 3400,
+          "previousPurchaseRate": 3550,
+          "technicalSpecs": "0.27mm CRNO silicon steel, interlock stacked + varnish bonded."
+        }
+      ],
+      "attachments": [],
+      "invitedSupplierIds": [
+        "SUP-001",
+        "SUP-002"
+      ],
+      "participations": [
+        {
+          "supplierId": "SUP-001",
+          "supplierName": "Bharat Precision Forgings Pvt Ltd",
+          "status": "QUOTED",
+          "acknowledgedAt": "2026-11-07T12:54:00.792Z",
+          "updatedAt": "2026-11-10T00:54:00.792Z"
+        },
+        {
+          "supplierId": "SUP-002",
+          "supplierName": "Kaveri CNC & Die Casting Ltd",
+          "status": "QUOTED",
+          "acknowledgedAt": "2026-11-07T17:54:00.792Z",
+          "updatedAt": "2026-11-10T05:54:00.792Z"
+        }
+      ],
+      "clarifications": [],
+      "rfqApprovalChain": [
+        {
+          "stageOrder": 1,
+          "label": "SCM Manager",
+          "approverType": "SCM_MANAGER",
+          "status": "APPROVED",
+          "actionBy": "Rohan Kapoor",
+          "actionAt": "2026-11-06T16:54:00.792Z",
+          "remarks": "Approved."
+        }
+      ],
+      "rfqApprovalHistory": [],
+      "currentRfqApprovalStep": 1,
+      "deadlineHistory": [],
+      "createdBy": "USR-BUY-01",
+      "createdByName": "Rajesh Kulkarni",
+      "createdAt": "2026-11-05T20:54:00.792Z",
+      "updatedAt": "2026-11-16T12:54:00.792Z"
+    },
+    {
+      "id": "RFQ-106",
+      "rfqNumber": "RFQ-2026-0106",
+      "title": "High-Temp Viton Brake Caliper Piston Seals",
+      "project": "PRJ-SUV26 Braking System",
+      "companyId": "COMP-01",
+      "plantId": "PLT-1010",
+      "departmentId": "DEPT-CH",
+      "purchasingGroup": "PG-02",
+      "materialCategory": "Elastomer Seals & Gaskets",
+      "currency": "INR",
+      "quotationDeadline": "2026-11-29T12:54:00.792Z",
+      "requiredDeliveryDate": "2027-01-16T12:54:00.792Z",
+      "deliveryLocation": "Pune Chakan Plant 1010",
+      "technicalContact": "Suresh Patel",
+      "commercialContact": "Rajesh Kulkarni",
+      "paymentTerms": "NET45",
+      "incoterms": "DAP",
+      "termsAndConditions": "DOT 4 fluid compatibility test required at 150C for 500 hours.",
+      "allowRevisions": true,
+      "requireTechEvalFirst": false,
+      "minSuppliersRequired": 2,
+      "status": "DRAFT",
+      "items": [
+        {
+          "id": "ITEM-106-1",
+          "lineNo": 10,
+          "materialCode": "MAT-CH-31099",
+          "description": "EPDM Square-Cut Caliper Seal 54mm",
+          "drawingNumber": "DRW-CH-31099-R1",
+          "revisionNumber": "Rev 01",
+          "quantity": 10000,
+          "uom": "NOS",
+          "targetDeliveryDate": "2027-01-16T12:54:00.792Z",
+          "plantId": "PLT-1010",
+          "storageLocation": "SL-1010-CH",
+          "benchmarkRate": 42,
+          "previousPurchaseRate": 45,
+          "technicalSpecs": "Peroxide-cured EPDM 70 Shore A."
+        }
+      ],
+      "attachments": [],
+      "invitedSupplierIds": [
+        "SUP-003"
+      ],
+      "participations": [],
+      "clarifications": [],
+      "rfqApprovalChain": [],
+      "rfqApprovalHistory": [],
+      "currentRfqApprovalStep": 0,
+      "deadlineHistory": [],
+      "createdBy": "USR-BUY-01",
+      "createdByName": "Rajesh Kulkarni",
+      "createdAt": "2026-11-17T07:54:00.792Z",
+      "updatedAt": "2026-11-17T07:54:00.792Z"
+    }
+  ],
+  "quotations": [
+    {
+      "id": "QUO-101-1",
+      "quotationNumber": "QUO-2026-5001",
+      "rfqId": "RFQ-101",
+      "supplierId": "SUP-001",
+      "supplierName": "Bharat Precision Forgings Pvt Ltd",
+      "version": 1,
+      "status": "SUBMITTED",
+      "items": [
+        {
+          "rfqItemId": "ITEM-101-1",
+          "basicUnitPrice": 1460,
+          "discountPercent": 2,
+          "gstPercent": 18,
+          "freight": 24000,
+          "packingForwarding": 12000,
+          "toolingCost": 45000,
+          "insurance": 3500,
+          "otherCharges": 0,
+          "moq": 300,
+          "leadTimeDays": 28,
+          "deliverySchedule": "28 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "None",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 1430.8,
+          "gstAmount": 309052.8,
+          "totalLandedCost": 2110512.8
+        },
+        {
+          "rfqItemId": "ITEM-101-2",
+          "basicUnitPrice": 980,
+          "discountPercent": 2,
+          "gstPercent": 18,
+          "freight": 18000,
+          "packingForwarding": 9000,
+          "toolingCost": 30000,
+          "insurance": 2500,
+          "otherCharges": 0,
+          "moq": 300,
+          "leadTimeDays": 28,
+          "deliverySchedule": "28 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "None",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 960.4,
+          "gstAmount": 207446.4,
+          "totalLandedCost": 1419426.4
+        }
+      ],
+      "paymentTerms": "NET45",
+      "incoterms": "DAP",
+      "validityDate": "2027-01-16",
+      "warrantyMonths": 24,
+      "countryOfOrigin": "India",
+      "technicalDeviation": "None – Full Spec Compliance",
+      "commercialDeviation": "None – Standard Terms Accepted",
+      "remarks": "Includes 100% CMM & material test certification.",
+      "attachmentName": "QUO-2026-5001_Commercial_Offer.pdf",
+      "submittedAt": "2026-11-16T16:54:00.792Z",
+      "totalBasicAmount": 2869440,
+      "totalLandedCost": 3529939.2,
+      "technicalEval": {
+        "status": "TECHNICALLY_ACCEPTED",
+        "score": 95,
+        "evaluatedBy": "Suresh Patel",
+        "evaluatedAt": "2026-11-16T16:54:00.793Z",
+        "remarks": "Helium leak rig validated."
+      },
+      "history": [
+        {
+          "version": 1,
+          "totalLandedCost": 3529939.2,
+          "submittedAt": "2026-11-16T16:54:00.792Z",
+          "remarks": "Initial sealed quotation submission"
+        }
+      ]
+    },
+    {
+      "id": "QUO-101-2",
+      "quotationNumber": "QUO-2026-5002",
+      "rfqId": "RFQ-101",
+      "supplierId": "SUP-002",
+      "supplierName": "Kaveri CNC & Die Casting Ltd",
+      "version": 1,
+      "status": "SUBMITTED",
+      "items": [
+        {
+          "rfqItemId": "ITEM-101-1",
+          "basicUnitPrice": 1410,
+          "discountPercent": 0,
+          "gstPercent": 18,
+          "freight": 28000,
+          "packingForwarding": 14000,
+          "toolingCost": 55000,
+          "insurance": 4000,
+          "otherCharges": 0,
+          "moq": 400,
+          "leadTimeDays": 32,
+          "deliverySchedule": "32 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "None",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 1410,
+          "gstAmount": 304560,
+          "totalLandedCost": 2097560
+        },
+        {
+          "rfqItemId": "ITEM-101-2",
+          "basicUnitPrice": 945,
+          "discountPercent": 0,
+          "gstPercent": 18,
+          "freight": 22000,
+          "packingForwarding": 10000,
+          "toolingCost": 35000,
+          "insurance": 2800,
+          "otherCharges": 0,
+          "moq": 400,
+          "leadTimeDays": 32,
+          "deliverySchedule": "32 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "None",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 945,
+          "gstAmount": 204120,
+          "totalLandedCost": 1407920
+        }
+      ],
+      "paymentTerms": "NET45",
+      "incoterms": "DAP",
+      "validityDate": "2027-01-16",
+      "warrantyMonths": 24,
+      "countryOfOrigin": "India",
+      "technicalDeviation": "None – Full Spec Compliance",
+      "commercialDeviation": "None – Standard Terms Accepted",
+      "remarks": "Includes 100% CMM & material test certification.",
+      "attachmentName": "QUO-2026-5002_Commercial_Offer.pdf",
+      "submittedAt": "2026-11-16T18:54:00.793Z",
+      "totalBasicAmount": 2826000,
+      "totalLandedCost": 3505480,
+      "technicalEval": {
+        "status": "PENDING"
+      },
+      "history": [
+        {
+          "version": 1,
+          "totalLandedCost": 3505480,
+          "submittedAt": "2026-11-16T18:54:00.793Z",
+          "remarks": "Initial sealed quotation submission"
+        }
+      ]
+    },
+    {
+      "id": "QUO-102-1",
+      "quotationNumber": "QUO-2026-5011",
+      "rfqId": "RFQ-102",
+      "supplierId": "SUP-001",
+      "supplierName": "Bharat Precision Forgings Pvt Ltd",
+      "version": 1,
+      "status": "SUBMITTED",
+      "items": [
+        {
+          "rfqItemId": "ITEM-102-1",
+          "basicUnitPrice": 1890,
+          "discountPercent": 2,
+          "gstPercent": 18,
+          "freight": 22000,
+          "packingForwarding": 11000,
+          "toolingCost": 0,
+          "insurance": 3000,
+          "otherCharges": 0,
+          "moq": 250,
+          "leadTimeDays": 21,
+          "deliverySchedule": "21 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "None",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 1852.2,
+          "gstAmount": 333396,
+          "totalLandedCost": 2221596
+        },
+        {
+          "rfqItemId": "ITEM-102-2",
+          "basicUnitPrice": 2190,
+          "discountPercent": 2,
+          "gstPercent": 18,
+          "freight": 25000,
+          "packingForwarding": 12000,
+          "toolingCost": 0,
+          "insurance": 3500,
+          "otherCharges": 0,
+          "moq": 250,
+          "leadTimeDays": 21,
+          "deliverySchedule": "21 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "None",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 2146.2,
+          "gstAmount": 386316,
+          "totalLandedCost": 2573016
+        }
+      ],
+      "paymentTerms": "NET45",
+      "incoterms": "DAP",
+      "validityDate": "2027-01-16",
+      "warrantyMonths": 24,
+      "countryOfOrigin": "India",
+      "technicalDeviation": "None – Full Spec Compliance",
+      "commercialDeviation": "None – Standard Terms Accepted",
+      "remarks": "Includes 100% CMM & material test certification.",
+      "attachmentName": "QUO-2026-5011_Commercial_Offer.pdf",
+      "submittedAt": "2026-11-15T20:54:00.793Z",
+      "totalBasicAmount": 3998400,
+      "totalLandedCost": 4794612,
+      "technicalEval": {
+        "status": "TECHNICALLY_ACCEPTED",
+        "score": 96,
+        "evaluatedBy": "Suresh Patel",
+        "evaluatedAt": "2026-11-16T16:54:00.793Z",
+        "remarks": "Existing approved 2500T forging line; zero tooling needed."
+      },
+      "history": [
+        {
+          "version": 1,
+          "totalLandedCost": 4794612,
+          "submittedAt": "2026-11-15T20:54:00.793Z",
+          "remarks": "Initial sealed quotation submission"
+        }
+      ]
+    },
+    {
+      "id": "QUO-102-2",
+      "quotationNumber": "QUO-2026-5012",
+      "rfqId": "RFQ-102",
+      "supplierId": "SUP-002",
+      "supplierName": "Kaveri CNC & Die Casting Ltd",
+      "version": 1,
+      "status": "SUBMITTED",
+      "items": [
+        {
+          "rfqItemId": "ITEM-102-1",
+          "basicUnitPrice": 1960,
+          "discountPercent": 1,
+          "gstPercent": 18,
+          "freight": 16000,
+          "packingForwarding": 9000,
+          "toolingCost": 65000,
+          "insurance": 2500,
+          "otherCharges": 0,
+          "moq": 500,
+          "leadTimeDays": 35,
+          "deliverySchedule": "35 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "Requested NET30 instead of NET45",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 1940.4,
+          "gstAmount": 349272,
+          "totalLandedCost": 2382172
+        },
+        {
+          "rfqItemId": "ITEM-102-2",
+          "basicUnitPrice": 2240,
+          "discountPercent": 1,
+          "gstPercent": 18,
+          "freight": 18000,
+          "packingForwarding": 10000,
+          "toolingCost": 75000,
+          "insurance": 3000,
+          "otherCharges": 0,
+          "moq": 500,
+          "leadTimeDays": 35,
+          "deliverySchedule": "35 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "Requested NET30 instead of NET45",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 2217.6,
+          "gstAmount": 399168,
+          "totalLandedCost": 2722768
+        }
+      ],
+      "paymentTerms": "NET30",
+      "incoterms": "DAP",
+      "validityDate": "2027-01-16",
+      "warrantyMonths": 24,
+      "countryOfOrigin": "India",
+      "technicalDeviation": "None – Full Spec Compliance",
+      "commercialDeviation": "Requested NET30 instead of NET45",
+      "remarks": "Includes 100% CMM & material test certification.",
+      "attachmentName": "QUO-2026-5012_Commercial_Offer.pdf",
+      "submittedAt": "2026-11-15T22:54:00.793Z",
+      "totalBasicAmount": 4158000,
+      "totalLandedCost": 5104940,
+      "technicalEval": {
+        "status": "CONDITIONALLY_ACCEPTED",
+        "score": 84,
+        "evaluatedBy": "Suresh Patel",
+        "evaluatedAt": "2026-11-16T16:54:00.793Z",
+        "remarks": "Requires subcontracted heat-treat audit before PPAP."
+      },
+      "history": [
+        {
+          "version": 1,
+          "totalLandedCost": 5104940,
+          "submittedAt": "2026-11-15T22:54:00.793Z",
+          "remarks": "Initial sealed quotation submission"
+        }
+      ]
+    },
+    {
+      "id": "QUO-102-3",
+      "quotationNumber": "QUO-2026-5013",
+      "rfqId": "RFQ-102",
+      "supplierId": "SUP-003",
+      "supplierName": "Shakti Automotive Fasteners & Shafts",
+      "version": 1,
+      "status": "SUBMITTED",
+      "items": [
+        {
+          "rfqItemId": "ITEM-102-1",
+          "basicUnitPrice": 1995,
+          "discountPercent": 0,
+          "gstPercent": 18,
+          "freight": 35000,
+          "packingForwarding": 15000,
+          "toolingCost": 90000,
+          "insurance": 4000,
+          "otherCharges": 5000,
+          "moq": 500,
+          "leadTimeDays": 42,
+          "deliverySchedule": "42 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "EXW Manesar instead of DAP Chennai",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 1995,
+          "gstAmount": 359100,
+          "totalLandedCost": 2503100
+        },
+        {
+          "rfqItemId": "ITEM-102-2",
+          "basicUnitPrice": 2380,
+          "discountPercent": 0,
+          "gstPercent": 18,
+          "freight": 38000,
+          "packingForwarding": 16000,
+          "toolingCost": 95000,
+          "insurance": 4500,
+          "otherCharges": 5000,
+          "moq": 500,
+          "leadTimeDays": 42,
+          "deliverySchedule": "42 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "EXW Manesar instead of DAP Chennai",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 2380,
+          "gstAmount": 428400,
+          "totalLandedCost": 2966900
+        }
+      ],
+      "paymentTerms": "NET45",
+      "incoterms": "EXW",
+      "validityDate": "2027-01-16",
+      "warrantyMonths": 24,
+      "countryOfOrigin": "India",
+      "technicalDeviation": "None – Full Spec Compliance",
+      "commercialDeviation": "EXW Manesar instead of DAP Chennai",
+      "remarks": "Includes 100% CMM & material test certification.",
+      "attachmentName": "QUO-2026-5013_Commercial_Offer.pdf",
+      "submittedAt": "2026-11-16T00:54:00.793Z",
+      "totalBasicAmount": 4375000,
+      "totalLandedCost": 5470000,
+      "technicalEval": {
+        "status": "TECHNICALLY_REJECTED",
+        "score": 58,
+        "evaluatedBy": "Suresh Patel",
+        "evaluatedAt": "2026-11-16T16:54:00.793Z",
+        "remarks": "Lacks closed-die 2500T forging press capacity for 42CrMo4 arm."
+      },
+      "history": [
+        {
+          "version": 1,
+          "totalLandedCost": 5470000,
+          "submittedAt": "2026-11-16T00:54:00.793Z",
+          "remarks": "Initial sealed quotation submission"
+        }
+      ]
+    },
+    {
+      "id": "QUO-103-1",
+      "quotationNumber": "QUO-2026-5021",
+      "rfqId": "RFQ-103",
+      "supplierId": "SUP-001",
+      "supplierName": "Bharat Precision Forgings Pvt Ltd",
+      "version": 1,
+      "status": "SUBMITTED",
+      "items": [
+        {
+          "rfqItemId": "ITEM-103-1",
+          "basicUnitPrice": 2680,
+          "discountPercent": 2,
+          "gstPercent": 18,
+          "freight": 28000,
+          "packingForwarding": 12000,
+          "toolingCost": 0,
+          "insurance": 4000,
+          "otherCharges": 0,
+          "moq": 250,
+          "leadTimeDays": 18,
+          "deliverySchedule": "18 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "None",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 2626.4,
+          "gstAmount": 472752,
+          "totalLandedCost": 3143152
+        }
+      ],
+      "paymentTerms": "NET45",
+      "incoterms": "DDP",
+      "validityDate": "2027-01-16",
+      "warrantyMonths": 24,
+      "countryOfOrigin": "India",
+      "technicalDeviation": "None – Full Spec Compliance",
+      "commercialDeviation": "None – Standard Terms Accepted",
+      "remarks": "Includes 100% CMM & material test certification.",
+      "attachmentName": "QUO-2026-5021_Commercial_Offer.pdf",
+      "submittedAt": "2026-11-14T14:54:00.793Z",
+      "totalBasicAmount": 2626400,
+      "totalLandedCost": 3143152,
+      "technicalEval": {
+        "status": "TECHNICALLY_ACCEPTED",
+        "score": 97,
+        "evaluatedBy": "Suresh Patel",
+        "evaluatedAt": "2026-11-16T16:54:00.793Z",
+        "remarks": "Zero-defect crash rail weld qualification passed."
+      },
+      "history": [
+        {
+          "version": 1,
+          "totalLandedCost": 3143152,
+          "submittedAt": "2026-11-14T14:54:00.793Z",
+          "remarks": "Initial sealed quotation submission"
+        }
+      ]
+    },
+    {
+      "id": "QUO-103-2",
+      "quotationNumber": "QUO-2026-5022",
+      "rfqId": "RFQ-103",
+      "supplierId": "SUP-002",
+      "supplierName": "Kaveri CNC & Die Casting Ltd",
+      "version": 1,
+      "status": "SUBMITTED",
+      "items": [
+        {
+          "rfqItemId": "ITEM-103-1",
+          "basicUnitPrice": 2560,
+          "discountPercent": 2,
+          "gstPercent": 18,
+          "freight": 32000,
+          "packingForwarding": 14000,
+          "toolingCost": 0,
+          "insurance": 4000,
+          "otherCharges": 0,
+          "moq": 500,
+          "leadTimeDays": 45,
+          "deliverySchedule": "45 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "45-day lead time vs 28-day target; NET30 terms",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 2508.8,
+          "gstAmount": 451584,
+          "totalLandedCost": 3010384
+        }
+      ],
+      "paymentTerms": "NET30",
+      "incoterms": "DDP",
+      "validityDate": "2027-01-16",
+      "warrantyMonths": 24,
+      "countryOfOrigin": "India",
+      "technicalDeviation": "None – Full Spec Compliance",
+      "commercialDeviation": "45-day lead time vs 28-day target; NET30 terms",
+      "remarks": "Includes 100% CMM & material test certification.",
+      "attachmentName": "QUO-2026-5022_Commercial_Offer.pdf",
+      "submittedAt": "2026-11-14T19:54:00.793Z",
+      "totalBasicAmount": 2508800,
+      "totalLandedCost": 3010384,
+      "technicalEval": {
+        "status": "TECHNICALLY_ACCEPTED",
+        "score": 86,
+        "evaluatedBy": "Suresh Patel",
+        "evaluatedAt": "2026-11-16T16:54:00.793Z",
+        "remarks": "Meets tolerance but 45-day lead time delays EV900 SOP."
+      },
+      "history": [
+        {
+          "version": 1,
+          "totalLandedCost": 3010384,
+          "submittedAt": "2026-11-14T19:54:00.793Z",
+          "remarks": "Initial sealed quotation submission"
+        }
+      ]
+    },
+    {
+      "id": "QUO-105-1",
+      "quotationNumber": "QUO-2026-5041",
+      "rfqId": "RFQ-105",
+      "supplierId": "SUP-001",
+      "supplierName": "Bharat Precision Forgings Pvt Ltd",
+      "version": 1,
+      "status": "SUBMITTED",
+      "items": [
+        {
+          "rfqItemId": "ITEM-105-1",
+          "basicUnitPrice": 3320,
+          "discountPercent": 2,
+          "gstPercent": 18,
+          "freight": 18000,
+          "packingForwarding": 8000,
+          "toolingCost": 0,
+          "insurance": 2500,
+          "otherCharges": 0,
+          "moq": 100,
+          "leadTimeDays": 14,
+          "deliverySchedule": "14 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "None",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 3253.6,
+          "gstAmount": 292824,
+          "totalLandedCost": 1948124
+        }
+      ],
+      "paymentTerms": "NET30",
+      "incoterms": "DAP",
+      "validityDate": "2027-01-16",
+      "warrantyMonths": 24,
+      "countryOfOrigin": "India",
+      "technicalDeviation": "None – Full Spec Compliance",
+      "commercialDeviation": "None – Standard Terms Accepted",
+      "remarks": "Includes 100% CMM & material test certification.",
+      "attachmentName": "QUO-2026-5041_Commercial_Offer.pdf",
+      "submittedAt": "2026-11-10T00:54:00.793Z",
+      "totalBasicAmount": 1626800,
+      "totalLandedCost": 1948124,
+      "technicalEval": {
+        "status": "TECHNICALLY_ACCEPTED",
+        "score": 95,
+        "evaluatedBy": "Suresh Patel",
+        "evaluatedAt": "2026-11-16T16:54:00.794Z",
+        "remarks": "Approved."
+      },
+      "history": [
+        {
+          "version": 1,
+          "totalLandedCost": 1948124,
+          "submittedAt": "2026-11-10T00:54:00.793Z",
+          "remarks": "Initial sealed quotation submission"
+        }
+      ]
+    },
+    {
+      "id": "QUO-105-2",
+      "quotationNumber": "QUO-2026-5042",
+      "rfqId": "RFQ-105",
+      "supplierId": "SUP-002",
+      "supplierName": "Kaveri CNC & Die Casting Ltd",
+      "version": 1,
+      "status": "SUBMITTED",
+      "items": [
+        {
+          "rfqItemId": "ITEM-105-1",
+          "basicUnitPrice": 3480,
+          "discountPercent": 0,
+          "gstPercent": 18,
+          "freight": 20000,
+          "packingForwarding": 9000,
+          "toolingCost": 0,
+          "insurance": 3000,
+          "otherCharges": 0,
+          "moq": 200,
+          "leadTimeDays": 21,
+          "deliverySchedule": "21 days from PO release",
+          "technicalDeviation": "None",
+          "commercialDeviation": "None",
+          "remarks": "Compliant with drawing spec",
+          "netUnitPrice": 3480,
+          "gstAmount": 313200,
+          "totalLandedCost": 2085200
+        }
+      ],
+      "paymentTerms": "NET30",
+      "incoterms": "DAP",
+      "validityDate": "2027-01-16",
+      "warrantyMonths": 24,
+      "countryOfOrigin": "India",
+      "technicalDeviation": "None – Full Spec Compliance",
+      "commercialDeviation": "None – Standard Terms Accepted",
+      "remarks": "Includes 100% CMM & material test certification.",
+      "attachmentName": "QUO-2026-5042_Commercial_Offer.pdf",
+      "submittedAt": "2026-11-10T05:54:00.794Z",
+      "totalBasicAmount": 1740000,
+      "totalLandedCost": 2085200,
+      "technicalEval": {
+        "status": "TECHNICALLY_ACCEPTED",
+        "score": 90,
+        "evaluatedBy": "Suresh Patel",
+        "evaluatedAt": "2026-11-16T16:54:00.794Z",
+        "remarks": "Approved."
+      },
+      "history": [
+        {
+          "version": 1,
+          "totalLandedCost": 2085200,
+          "submittedAt": "2026-11-10T05:54:00.794Z",
+          "remarks": "Initial sealed quotation submission"
+        }
+      ]
+    }
+  ],
+  "negotiations": [
+    {
+      "id": "NEG-102-1",
+      "rfqId": "RFQ-102",
+      "roundNumber": 1,
+      "supplierId": "SUP-001",
+      "supplierName": "Bharat Precision Forgings Pvt Ltd",
+      "initiatedBy": "Rajesh Kulkarni",
+      "initiatedAt": "2026-11-16T20:54:00.794Z",
+      "items": [
+        {
+          "rfqItemId": "ITEM-102-1",
+          "materialCode": "MAT-CH-88201",
+          "description": "Forged Steel Lower Control Arm (42CrMo4)",
+          "quantity": 1000,
+          "previousUnitPrice": 1852.2,
+          "targetUnitPrice": 1780,
+          "revisedUnitPrice": 1795,
+          "previousLandedCost": 2221596,
+          "revisedLandedCost": 2154100
+        },
+        {
+          "rfqItemId": "ITEM-102-2",
+          "materialCode": "MAT-CH-88205",
+          "description": "Front Steering Knuckle Machined",
+          "quantity": 1000,
+          "previousUnitPrice": 2146.2,
+          "targetUnitPrice": 2080,
+          "revisedUnitPrice": 2095,
+          "previousLandedCost": 2573016,
+          "revisedLandedCost": 2512600
+        }
+      ],
+      "revisedTerms": "NET45 · DAP Chennai Oragadam · 12-month raw-material index lock",
+      "buyerRemarks": "Volume commitment increased to 24,000 units/year if unit price meets below ₹1,800 and ₹2,100.",
+      "supplierConfirmed": true,
+      "supplierConfirmedAt": "2026-11-17T02:54:00.794Z",
+      "supplierRemarks": "Confirmed Round 1 revised rates with annual volume commitment.",
+      "attachmentName": "Bharat_R1_Signed_Offer.pdf",
+      "previousTotal": 4794612,
+      "revisedTotal": 4666700,
+      "savingsAmount": 127912,
+      "savingsPercent": 2.67
+    },
+    {
+      "id": "NEG-103-1",
+      "rfqId": "RFQ-103",
+      "roundNumber": 1,
+      "supplierId": "SUP-001",
+      "supplierName": "Bharat Precision Forgings Pvt Ltd",
+      "initiatedBy": "Rajesh Kulkarni",
+      "initiatedAt": "2026-11-15T20:54:00.794Z",
+      "items": [
+        {
+          "rfqItemId": "ITEM-103-1",
+          "materialCode": "MAT-EV-90110",
+          "description": "Extruded Aluminum Side Impact Crash Rail (6082-T6)",
+          "quantity": 1000,
+          "previousUnitPrice": 2626.4,
+          "targetUnitPrice": 2540,
+          "revisedUnitPrice": 2560,
+          "previousLandedCost": 3143152,
+          "revisedLandedCost": 3064800
+        }
+      ],
+      "revisedTerms": "NET45 · DDP Sanand EV Plant · 18-day lead time guaranteed",
+      "buyerRemarks": "Requested reduction toward L1 benchmark while retaining 18-day SOP lead time.",
+      "supplierConfirmed": true,
+      "supplierConfirmedAt": "2026-11-16T04:54:00.794Z",
+      "supplierRemarks": "Confirmed final offer at ₹2,560/unit with 18-day express delivery.",
+      "previousTotal": 3143152,
+      "revisedTotal": 3064800,
+      "savingsAmount": 78352,
+      "savingsPercent": 2.49
+    }
+  ],
+  "rateRecommendations": [
+    {
+      "id": "REC-103",
+      "rfqId": "RFQ-103",
+      "recommendedSupplierId": "SUP-001",
+      "recommendedSupplierName": "Bharat Precision Forgings Pvt Ltd",
+      "isL1": false,
+      "nonL1Justification": "Lower lead time",
+      "originalQuotedTotal": 3143152,
+      "finalSettledTotal": 3064800,
+      "absoluteSaving": 78352,
+      "savingPercent": 2.49,
+      "benchmarkTotal": 2650000,
+      "benchmarkVarianceAmount": -90000,
+      "benchmarkVariancePercent": -3.4,
+      "previousPurchaseTotal": 2790000,
+      "prevPriceVarianceAmount": -230000,
+      "prevPriceVariancePercent": -8.24,
+      "totalBusinessValue": 3064800,
+      "settledLineRates": [
+        {
+          "rfqItemId": "ITEM-103-1",
+          "materialCode": "MAT-EV-90110",
+          "description": "Extruded Aluminum Side Impact Crash Rail (6082-T6)",
+          "quantity": 1000,
+          "settledUnitPrice": 2560,
+          "settledLandedTotal": 3064800
+        }
+      ],
+      "approvalChain": [
+        {
+          "stageOrder": 1,
+          "label": "SCM Manager",
+          "approverType": "SCM_MANAGER",
+          "status": "APPROVED",
+          "actionBy": "Rohan Kapoor",
+          "actionAt": "2026-11-16T16:54:00.794Z",
+          "remarks": "Verified 18-day delivery schedule protects EV900 pilot SOP."
+        },
+        {
+          "stageOrder": 2,
+          "label": "Finance Reviewer",
+          "approverType": "FINANCE_REVIEWER",
+          "status": "APPROVED",
+          "actionBy": "Arjun Mehta",
+          "actionAt": "2026-11-17T00:54:00.794Z",
+          "remarks": "NET45 terms yield working capital benefit vs L1 NET30."
+        },
+        {
+          "stageOrder": 3,
+          "label": "Purchase Head",
+          "approverType": "PURCHASE_HEAD",
+          "status": "PENDING"
+        },
+        {
+          "stageOrder": 4,
+          "label": "Management Approver (Non-L1 & >₹25L)",
+          "approverType": "MANAGEMENT_APPROVER",
+          "status": "PENDING"
+        }
+      ],
+      "currentStepIndex": 2,
+      "status": "PENDING_APPROVAL",
+      "submittedBy": "Rajesh Kulkarni",
+      "submittedAt": "2026-11-16T12:54:00.794Z",
+      "approvalHistory": [
+        {
+          "id": "RAH-103-1",
+          "stageLabel": "Buyer Recommendation",
+          "approverId": "USR-BUY-01",
+          "approverName": "Rajesh Kulkarni",
+          "approverRole": "BUYER",
+          "action": "SUBMIT",
+          "remarks": "Non-L1 recommended due to 18-day lead time vs Kaveri 45-day lead time (protects EV900 SOP) and NET45 payment terms.",
+          "previousStatus": "DRAFT",
+          "newStatus": "PENDING_APPROVAL",
+          "timestamp": "2026-11-16T12:54:00.794Z"
+        },
+        {
+          "id": "RAH-103-2",
+          "stageLabel": "SCM Manager",
+          "approverId": "USR-APR-SCMM",
+          "approverName": "Rohan Kapoor",
+          "approverRole": "SCM_MANAGER",
+          "action": "APPROVE",
+          "remarks": "Verified 18-day delivery schedule protects EV900 pilot SOP.",
+          "previousStatus": "PENDING_APPROVAL",
+          "newStatus": "PENDING_APPROVAL",
+          "timestamp": "2026-11-16T16:54:00.794Z"
+        },
+        {
+          "id": "RAH-103-3",
+          "stageLabel": "Finance Reviewer",
+          "approverId": "USR-APR-FIN",
+          "approverName": "Arjun Mehta",
+          "approverRole": "FINANCE_REVIEWER",
+          "action": "APPROVE",
+          "remarks": "NET45 terms offset marginal price delta.",
+          "previousStatus": "PENDING_APPROVAL",
+          "newStatus": "PENDING_APPROVAL",
+          "timestamp": "2026-11-17T00:54:00.794Z"
+        }
+      ]
+    },
+    {
+      "id": "REC-105",
+      "rfqId": "RFQ-105",
+      "recommendedSupplierId": "SUP-001",
+      "recommendedSupplierName": "Bharat Precision Forgings Pvt Ltd",
+      "isL1": true,
+      "originalQuotedTotal": 1947692,
+      "finalSettledTotal": 1901500,
+      "absoluteSaving": 46192,
+      "savingPercent": 2.37,
+      "benchmarkTotal": 1700000,
+      "benchmarkVarianceAmount": -73200,
+      "benchmarkVariancePercent": -4.31,
+      "previousPurchaseTotal": 1775000,
+      "prevPriceVarianceAmount": -148200,
+      "prevPriceVariancePercent": -8.35,
+      "totalBusinessValue": 1901500,
+      "settledLineRates": [
+        {
+          "rfqItemId": "ITEM-105-1",
+          "materialCode": "MAT-EV-77410",
+          "description": "Traction Motor Stator Stack (NO27 0.27mm)",
+          "quantity": 500,
+          "settledUnitPrice": 3200,
+          "settledLandedTotal": 1901500
+        }
+      ],
+      "approvalChain": [
+        {
+          "stageOrder": 1,
+          "label": "SCM Manager",
+          "approverType": "SCM_MANAGER",
+          "status": "APPROVED",
+          "actionBy": "Rohan Kapoor",
+          "actionAt": "2026-11-15T12:54:00.794Z",
+          "remarks": "L1 compliant."
+        },
+        {
+          "stageOrder": 2,
+          "label": "Finance Reviewer",
+          "approverType": "FINANCE_REVIEWER",
+          "status": "APPROVED",
+          "actionBy": "Arjun Mehta",
+          "actionAt": "2026-11-16T00:54:00.794Z",
+          "remarks": "Budget aligned."
+        }
+      ],
+      "currentStepIndex": 2,
+      "status": "APPROVED",
+      "submittedBy": "Rajesh Kulkarni",
+      "submittedAt": "2026-11-15T00:54:00.794Z",
+      "approvalHistory": [
+        {
+          "id": "RAH-105-1",
+          "stageLabel": "Award Issued",
+          "approverId": "USR-BUY-01",
+          "approverName": "Rajesh Kulkarni",
+          "approverRole": "BUYER",
+          "action": "APPROVE",
+          "remarks": "Award AWD-2026-0041 issued to Bharat Precision Forgings Pvt Ltd.",
+          "previousStatus": "AWARD_APPROVED",
+          "newStatus": "AWARDED",
+          "timestamp": "2026-11-16T12:54:00.794Z"
+        }
+      ],
+      "awardNote": "Awarded L1 for 500 sets EV traction motor stator stack. SAP Info Record queued.",
+      "awardedBy": "Rajesh Kulkarni",
+      "awardedAt": "2026-11-16T12:54:00.794Z"
+    }
+  ],
+  "auditLogs": [
+    {
+      "id": "AUD-1001",
+      "timestamp": "2026-11-03T03:54:00.794Z",
+      "userId": "USR-ADM-01",
+      "userName": "Ananya Sharma",
+      "userRole": "ADMIN",
+      "action": "SUPPLIER_ACTIVATED",
+      "module": "Supplier Master",
+      "entityType": "SupplierApplication",
+      "entityId": "SUP-001",
+      "entityNumber": "SRM-VND-1001",
+      "previousState": "APPROVED",
+      "newState": "ACTIVE",
+      "remarks": "SAP Vendor 0000104521 activated across Plants 1010, 1020, 1030.",
+      "ipAddress": "10.42.18.14"
+    },
+    {
+      "id": "AUD-1002",
+      "timestamp": "2026-11-14T12:54:00.794Z",
+      "userId": "USR-BUY-01",
+      "userName": "Rajesh Kulkarni",
+      "userRole": "BUYER",
+      "action": "RFQ_PUBLISHED",
+      "module": "RFQ Management",
+      "entityType": "Rfq",
+      "entityId": "RFQ-101",
+      "entityNumber": "RFQ-2026-0101",
+      "previousState": "APPROVED",
+      "newState": "PUBLISHED",
+      "remarks": "Published to 3 Tier-1 suppliers with sealed-bid lock enabled.",
+      "ipAddress": "10.42.19.88"
+    },
+    {
+      "id": "AUD-1003",
+      "timestamp": "2026-11-16T12:54:00.794Z",
+      "userId": "USR-BUY-01",
+      "userName": "Rajesh Kulkarni",
+      "userRole": "BUYER",
+      "action": "RATE_RECOMMENDATION_SUBMITTED",
+      "module": "Rate Approval",
+      "entityType": "RateRecommendation",
+      "entityId": "REC-103",
+      "entityNumber": "RFQ-2026-0103",
+      "previousState": "NEGOTIATION",
+      "newState": "RATE_APPROVAL",
+      "remarks": "Non-L1 exception triggered: Lead time 18d vs 45d; > ₹25L workflow.",
+      "ipAddress": "10.42.19.88"
+    },
+    {
+      "id": "AUD-1004",
+      "timestamp": "2026-11-16T16:54:00.794Z",
+      "userId": "USR-APR-FIN",
+      "userName": "Arjun Mehta",
+      "userRole": "APPROVER",
+      "action": "SUPPLIER_SENT_BACK",
+      "module": "Supplier Onboarding",
+      "entityType": "SupplierApplication",
+      "entityId": "SUP-005",
+      "entityNumber": "APP-2026-0005",
+      "previousState": "FINANCE_REVIEW",
+      "newState": "CORRECTION_REQUIRED",
+      "remarks": "Beneficiary name mismatch & blurred IFSC cheque scan.",
+      "ipAddress": "10.42.12.40"
+    },
+    {
+      "id": "AUD-1005",
+      "timestamp": "2026-11-17T00:54:00.794Z",
+      "userId": "USR-APR-FIN",
+      "userName": "Arjun Mehta",
+      "userRole": "APPROVER",
+      "action": "RATE_STAGE_APPROVED",
+      "module": "Rate Approval",
+      "entityType": "RateRecommendation",
+      "entityId": "REC-103",
+      "entityNumber": "RFQ-2026-0103",
+      "previousState": "STAGE_2_PENDING",
+      "newState": "STAGE_3_PENDING",
+      "remarks": "Finance approved NET45 working capital offset.",
+      "ipAddress": "10.42.12.40"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "NOTIF-01",
+      "recipientRole": "APPROVER",
+      "title": "Rate Approval Pending (Non-L1 Exception): RFQ-2026-0103",
+      "message": "Purchase Head approval required for EV Battery Crash Rail settled at ₹30,64,800.",
+      "severity": "ACTION",
+      "status": "DELIVERED",
+      "channel": "IN_APP",
+      "relatedModule": "Rate Approval",
+      "relatedEntityId": "RFQ-103",
+      "createdAt": "2026-11-17T00:54:00.794Z"
+    },
+    {
+      "id": "NOTIF-02",
+      "recipientUserId": "USR-BUY-01",
+      "title": "Supplier Quotation Submitted: RFQ-2026-0101",
+      "message": "Kaveri CNC & Die Casting Ltd submitted sealed quotation QUO-2026-5002.",
+      "severity": "INFO",
+      "status": "DELIVERED",
+      "channel": "IN_APP",
+      "relatedModule": "Quotation",
+      "relatedEntityId": "RFQ-101",
+      "createdAt": "2026-11-16T18:54:00.794Z"
+    },
+    {
+      "id": "NOTIF-03",
+      "recipientSupplierId": "SUP-003",
+      "title": "RFQ Deadline Approaching: RFQ-2026-0101",
+      "message": "Quotation submission for CNC Machined Crankshaft Housing closes in 5 days.",
+      "severity": "WARNING",
+      "status": "DELIVERED",
+      "channel": "EMAIL",
+      "relatedModule": "RFQ",
+      "relatedEntityId": "RFQ-101",
+      "createdAt": "2026-11-17T02:54:00.794Z"
+    },
+    {
+      "id": "NOTIF-04",
+      "recipientRole": "ADMIN",
+      "title": "SMTP Bounce on Secondary Contact",
+      "message": "Email dispatch failed for compliance@omegaelastomers.in (mailbox full). In-app alert delivered.",
+      "severity": "ERROR",
+      "status": "FAILED",
+      "channel": "EMAIL",
+      "relatedModule": "Notifications",
+      "relatedEntityId": "SUP-005",
+      "createdAt": "2026-11-16T17:54:00.794Z"
+    }
+  ],
+  "sapIntegrations": [
+    {
+      "id": "SAP-001",
+      "direction": "OUTBOUND",
+      "objectType": "VENDOR_MASTER",
+      "tcode": "BP / XK01",
+      "bapiOrService": "API_BUSINESS_PARTNER",
+      "entityId": "SUP-001",
+      "entityNumber": "SRM-VND-1001",
+      "sapObjectId": "0000104521",
+      "status": "SYNCED",
+      "payloadPreview": {
+        "BusinessPartner": "0000104521",
+        "CompanyCode": "AC01",
+        "PurchasingOrg": "P100",
+        "TaxNumber3_GSTIN": "27AABCB4821M1Z5",
+        "PAN": "AABCB4821M",
+        "PaymentTerms": "NET45",
+        "AccountGroup": "Z001"
+      },
+      "syncedAt": "2026-11-03T03:54:00.794Z",
+      "lastMessage": "Business Partner 0000104521 created in SAP S/4HANA."
+    },
+    {
+      "id": "SAP-002",
+      "direction": "OUTBOUND",
+      "objectType": "PURCHASING_INFO_RECORD",
+      "tcode": "ME11",
+      "bapiOrService": "API_INFORECORD_PROCESS_SRV",
+      "entityId": "RFQ-105",
+      "entityNumber": "AWD-2026-0041",
+      "status": "READY",
+      "payloadPreview": {
+        "Material": "MAT-EV-77410",
+        "Supplier": "0000104521",
+        "PurchasingOrganization": "P100",
+        "Plant": "1030",
+        "NetPriceAmount": 3200,
+        "Currency": "INR",
+        "OrderPriceUnit": "SET",
+        "PlannedDeliveryDays": 14
+      },
+      "lastMessage": "Payload validated and staged for Phase-2 SAP PIR & PO handoff."
+    },
+    {
+      "id": "SAP-003",
+      "direction": "OUTBOUND",
+      "objectType": "CONTRACT",
+      "tcode": "ME31K",
+      "bapiOrService": "BAPI_CONTRACT_CREATE",
+      "entityId": "RFQ-105",
+      "entityNumber": "AWD-2026-0041",
+      "status": "READY",
+      "payloadPreview": {
+        "DocumentType": "MK",
+        "Vendor": "0000104521",
+        "PurchOrg": "P100",
+        "PurGroup": "PG03",
+        "TargetValue": 1901500,
+        "Currency": "INR",
+        "Incoterms": "DAP"
+      },
+      "lastMessage": "Outline agreement template ready for SAP ERP sync."
+    }
+  ]
+}
